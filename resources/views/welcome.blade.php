@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>CanRover</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -31,14 +31,18 @@
             }
 
             .title {
-                font-size: 96px;
+                font-size: 100px;
+            }
+            .text {
+                font-size: 30px;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">CanRover</div>
+                <div class="text">Currently under development by Armadillo Inc</div>
             </div>
         </div>
     </body>
