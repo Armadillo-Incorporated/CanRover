@@ -1,0 +1,22 @@
+{
+  "name": "CanRover",
+  "description": "",
+  "main": "",
+  "authors": [
+    "screamprobation <knight.costa47@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Armadillo-Incorporated/CanRover-v2",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation-apps": "~1.2.0"
+  }
+}
