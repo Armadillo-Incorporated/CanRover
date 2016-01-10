@@ -10,14 +10,25 @@
         concat = require('gulp-concat'),
         notify = require('gulp-notify'),
         cache = require('gulp-cache'),
-        livereload = require('gulp-livereload'),
         del = require('del');
+
+    var sassPaths = [
+        'bower_components/foundation-sites/scss',
+        'bower_components/motion-ui/src'
+    ];
+
+    var scriptPaths = [
+        'bower_components/jquery/dist/jquery.js',
+        'bower_components/what-input/what-input.js',
+        'bower_components/foundation-sites/dist/foundation.js',
+        'resources/assets/scripts/app.js'
+    ];
 
     // Styles
     gulp.task('styles', function() {
         return gulp.src('resources/assets/sass/app.scss')
             .pipe(sass({
-                includePaths: ['bower_components/foundation-apps/scss']
+                includePaths: sassPaths
             }))
             .pipe(autoprefixer('last 2 version'))
             .pipe(gulp.dest('public/css'))
@@ -33,12 +44,7 @@
 
     // Scripts
     gulp.task('scripts', function() {
-        return gulp.src([
-                'bower_components/foundation-apps/js/angular/foundation.js',
-                'bower_components/foundation-apps/js/angular/app.js',
-                'bower_components/angular/angular.js',
-                'resources/assets/scripts/app.js'
-            ])
+        return gulp.src(scriptPaths)
             .pipe(concat('app.js'))
             .pipe(gulp.dest('public/js'))
             .pipe(uglify())
@@ -75,8 +81,4 @@
         gulp.watch('resources/assets/scripts/**/*.js', ['scripts']);
         // Watch image files
         gulp.watch('resources/assets/images/**/*', ['images']);
-        // Create LiveReload server
-        livereload.listen();
-        // Watch any files in dist/, reload on change
-        gulp.watch(['public/**']).on('change', livereload.changed);
     });
