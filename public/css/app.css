@@ -3,13 +3,20 @@
   position: fixed;
   width: 100%; }
 
-.navigation__button a {
-  transition: color .1s ease-in-out, background-color .1s ease-in-out;
-  border-radius: 7px; }
-  .navigation__button a:hover {
-    color: black; }
-  .navigation__button a:hover {
-    background-color: #ff8200; }
+.navigation {
+  padding-top: 5px; }
+  .navigation__button a {
+    transition: color .1s ease-in-out, background-color .1s ease-in-out;
+    border-radius: 7px; }
+    .navigation__button a:hover {
+      color: black; }
+    .navigation__button a:hover {
+      background-color: #ff8200; }
+
+.logo {
+  fill: #ffa800;
+  height: 40px;
+  width: 100px; }
 
 .active {
   background-color: #ffa800;

@@ -41,8 +41,68 @@
               <span>Numquam placeat adipisci odio tenetur incidunt cumque quaerat nulla, excepturi voluptas saepe perferendis error quibusdam praesentium et, animi ad autem accusamus modi distinctio repudiandae officia veritatis in. Temporibus, ullam, ipsa.</span>
           </p>
       </section>
+      <section id="missions" data-magellan-target="missions">
+          <h1>Missions</h1>
+          <p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
+              <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
+              <span>Voluptatem possimus, id ipsam consequuntur voluptatum dolore iusto porro quasi accusamus doloremque sunt illum, fugiat eligendi magnam atque quia vel adipisci. Nulla quam fugiat nemo in doloremque quaerat fugit expedita.</span>
+              <span>Fuga repellendus amet necessitatibus totam laudantium, optio adipisci blanditiis ad explicabo dicta tempora facere eum placeat, nemo magnam. Repellendus quaerat, qui necessitatibus eos fugiat doloremque facere natus, est doloribus recusandae?</span>
+              <span>Expedita fugiat doloribus beatae, ratione tempore saepe perspiciatis, quibusdam repudiandae tempora culpa ullam nostrum alias error atque voluptatum, explicabo possimus. Enim illum voluptas voluptatem dignissimos expedita, iusto itaque nisi accusamus!</span>
+              <span>Nostrum distinctio veritatis laboriosam dicta, a nisi consectetur tempora blanditiis voluptatem rerum voluptatibus illum quod quae dolore nemo doloremque cumque, ducimus aut aliquid at obcaecati! Vitae delectus in commodi, rem.</span>
+              <span>Nam assumenda a, tenetur magnam ad dignissimos incidunt velit, fugiat atque? Sequi, culpa blanditiis eligendi, quos tempore nesciunt laboriosam odio, saepe minima cumque vitae repellendus nisi accusamus magnam explicabo expedita?</span>
+              <span>Accusamus asperiores suscipit aliquam expedita. Qui nihil, libero excepturi soluta ad non, sunt tenetur amet debitis rerum facere, blanditiis itaque fugit maxime aliquid cumque aut veniam illo laudantium? Velit, esse.</span>
+              <span>Optio nulla minus iure vitae beatae omnis sequi qui voluptas quae velit. Nam, itaque, praesentium! Impedit explicabo tenetur facilis, eum fugiat earum quae dolorem! Iure est sapiente perferendis beatae cumque.</span>
+              <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
+          </p>
+      </section>
+      <section id="outreach" data-magellan-target="outreach">
+          <h1>Outreach</h1>
+          <p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
+              <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
+              <span>Voluptatem possimus, id ipsam consequuntur voluptatum dolore iusto porro quasi accusamus doloremque sunt illum, fugiat eligendi magnam atque quia vel adipisci. Nulla quam fugiat nemo in doloremque quaerat fugit expedita.</span>
+              <span>Fuga repellendus amet necessitatibus totam laudantium, optio adipisci blanditiis ad explicabo dicta tempora facere eum placeat, nemo magnam. Repellendus quaerat, qui necessitatibus eos fugiat doloremque facere natus, est doloribus recusandae?</span>
+              <span>Expedita fugiat doloribus beatae, ratione tempore saepe perspiciatis, quibusdam repudiandae tempora culpa ullam nostrum alias error atque voluptatum, explicabo possimus. Enim illum voluptas voluptatem dignissimos expedita, iusto itaque nisi accusamus!</span>
+              <span>Nostrum distinctio veritatis laboriosam dicta, a nisi consectetur tempora blanditiis voluptatem rerum voluptatibus illum quod quae dolore nemo doloremque cumque, ducimus aut aliquid at obcaecati! Vitae delectus in commodi, rem.</span>
+              <span>Nam assumenda a, tenetur magnam ad dignissimos incidunt velit, fugiat atque? Sequi, culpa blanditiis eligendi, quos tempore nesciunt laboriosam odio, saepe minima cumque vitae repellendus nisi accusamus magnam explicabo expedita?</span>
+              <span>Accusamus asperiores suscipit aliquam expedita. Qui nihil, libero excepturi soluta ad non, sunt tenetur amet debitis rerum facere, blanditiis itaque fugit maxime aliquid cumque aut veniam illo laudantium? Velit, esse.</span>
+              <span>Optio nulla minus iure vitae beatae omnis sequi qui voluptas quae velit. Nam, itaque, praesentium! Impedit explicabo tenetur facilis, eum fugiat earum quae dolorem! Iure est sapiente perferendis beatae cumque.</span>
+              <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
+          </p>
+      </section>
+      <section id="acknowledgements" data-magellan-target="acknowledgements">
+          <h1>Acknowledgements</h1>
+          <p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
+              <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
+              <span>Voluptatem possimus, id ipsam consequuntur voluptatum dolore iusto porro quasi accusamus doloremque sunt illum, fugiat eligendi magnam atque quia vel adipisci. Nulla quam fugiat nemo in doloremque quaerat fugit expedita.</span>
+              <span>Fuga repellendus amet necessitatibus totam laudantium, optio adipisci blanditiis ad explicabo dicta tempora facere eum placeat, nemo magnam. Repellendus quaerat, qui necessitatibus eos fugiat doloremque facere natus, est doloribus recusandae?</span>
+              <span>Expedita fugiat doloribus beatae, ratione tempore saepe perspiciatis, quibusdam repudiandae tempora culpa ullam nostrum alias error atque voluptatum, explicabo possimus. Enim illum voluptas voluptatem dignissimos expedita, iusto itaque nisi accusamus!</span>
+              <span>Nostrum distinctio veritatis laboriosam dicta, a nisi consectetur tempora blanditiis voluptatem rerum voluptatibus illum quod quae dolore nemo doloremque cumque, ducimus aut aliquid at obcaecati! Vitae delectus in commodi, rem.</span>
+              <span>Nam assumenda a, tenetur magnam ad dignissimos incidunt velit, fugiat atque? Sequi, culpa blanditiis eligendi, quos tempore nesciunt laboriosam odio, saepe minima cumque vitae repellendus nisi accusamus magnam explicabo expedita?</span>
+              <span>Accusamus asperiores suscipit aliquam expedita. Qui nihil, libero excepturi soluta ad non, sunt tenetur amet debitis rerum facere, blanditiis itaque fugit maxime aliquid cumque aut veniam illo laudantium? Velit, esse.</span>
+              <span>Optio nulla minus iure vitae beatae omnis sequi qui voluptas quae velit. Nam, itaque, praesentium! Impedit explicabo tenetur facilis, eum fugiat earum quae dolorem! Iure est sapiente perferendis beatae cumque.</span>
+              <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
+          </p>
+      </section>
       <section id="sponsors" data-magellan-target="sponsors">
           <h1>Sponsors</h1>
+          <p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
+              <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
+              <span>Voluptatem possimus, id ipsam consequuntur voluptatum dolore iusto porro quasi accusamus doloremque sunt illum, fugiat eligendi magnam atque quia vel adipisci. Nulla quam fugiat nemo in doloremque quaerat fugit expedita.</span>
+              <span>Fuga repellendus amet necessitatibus totam laudantium, optio adipisci blanditiis ad explicabo dicta tempora facere eum placeat, nemo magnam. Repellendus quaerat, qui necessitatibus eos fugiat doloremque facere natus, est doloribus recusandae?</span>
+              <span>Expedita fugiat doloribus beatae, ratione tempore saepe perspiciatis, quibusdam repudiandae tempora culpa ullam nostrum alias error atque voluptatum, explicabo possimus. Enim illum voluptas voluptatem dignissimos expedita, iusto itaque nisi accusamus!</span>
+              <span>Nostrum distinctio veritatis laboriosam dicta, a nisi consectetur tempora blanditiis voluptatem rerum voluptatibus illum quod quae dolore nemo doloremque cumque, ducimus aut aliquid at obcaecati! Vitae delectus in commodi, rem.</span>
+              <span>Nam assumenda a, tenetur magnam ad dignissimos incidunt velit, fugiat atque? Sequi, culpa blanditiis eligendi, quos tempore nesciunt laboriosam odio, saepe minima cumque vitae repellendus nisi accusamus magnam explicabo expedita?</span>
+              <span>Accusamus asperiores suscipit aliquam expedita. Qui nihil, libero excepturi soluta ad non, sunt tenetur amet debitis rerum facere, blanditiis itaque fugit maxime aliquid cumque aut veniam illo laudantium? Velit, esse.</span>
+              <span>Optio nulla minus iure vitae beatae omnis sequi qui voluptas quae velit. Nam, itaque, praesentium! Impedit explicabo tenetur facilis, eum fugiat earum quae dolorem! Iure est sapiente perferendis beatae cumque.</span>
+              <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
+          </p>
+      </section>
+      <section id="contactus" data-magellan-target="contactus">
+          <h1>Contact Us</h1>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
               <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
