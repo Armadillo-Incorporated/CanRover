@@ -10,8 +10,10 @@ use CanRover\Http\Controllers\Controller;
 class PagesController extends Controller
 {
     public function home() {
-        $first = 'Joe';
-        $last = 'Sandman';
-        return view('pages.home', compact('first', 'last'));
+        return view('pages.home');
+    }
+
+    public function news() {
+        return view('pages.news');
     }
 }

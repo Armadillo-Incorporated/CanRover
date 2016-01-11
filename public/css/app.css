@@ -3,6 +3,18 @@
   position: fixed;
   width: 100%; }
 
+.navigation__button a {
+  transition: color .1s ease-in-out, background-color .1s ease-in-out;
+  border-radius: 7px; }
+  .navigation__button a:hover {
+    color: black; }
+  .navigation__button a:hover {
+    background-color: #ff8200; }
+
+.active {
+  background-color: #ffa800;
+  color: black; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.1.1

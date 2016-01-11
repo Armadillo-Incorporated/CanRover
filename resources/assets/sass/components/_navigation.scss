@@ -2,3 +2,25 @@
     position: fixed;
     width: 100%;
 }
+
+.navigation {
+    &__button {
+        a {
+            transition: color .1s ease-in-out, background-color .1s ease-in-out;
+            border-radius: 7px;
+
+            &:hover {
+                color: black;
+            }
+
+            &:hover {
+               background-color: rgb(255, 130, 0);
+            }
+        }
+    }
+}
+
+.active {
+    background-color: rgb(255, 168, 0);
+    color: black;
+}

@@ -9,7 +9,7 @@
 @stop
 
 @section('content')
-    <div class="small-9 small-centered columns">
+    <div class="small-10 small-centered columns">
       <div class="sections">
       <section id="about" data-magellan-target="about">
           <h1>About</h1>

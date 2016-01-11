@@ -13,6 +13,8 @@
 
 Route::get('/', 'PagesController@home');
 
+Route::get('/news', 'PagesController@news');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

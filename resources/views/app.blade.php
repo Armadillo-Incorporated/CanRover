@@ -13,13 +13,13 @@
                     <li><a href="/">CanRover</a></li>
                 </ul>
             </div>
-            <div class="top-bar-right" id="example-menu">
+            <div class="top-bar-right">
                 <nav data-magellan>
                     <ul class="horizontal menu navigation">
-                        <li class="navigation__button"><a href="#about">About</a></li>
-                        <li class="navigation__button"><a href="#team">Team</a></li>
-                        <li class="navigation__button"><a href="#sponsors">Sponsors</a></li>
-                        <li class="navigation__button"><a href="/news">News</a></li>
+                        <li class="navigation__button"><a href="{{BASE_URL}}#about">About</a></li>
+                        <li class="navigation__button"><a href="{{BASE_URL}}#team">Team</a></li>
+                        <li class="navigation__button"><a href="{{BASE_URL}}#sponsors">Sponsors</a></li>
+                        <li class="navigation__button"><a href="{{BASE_URL}}/news" class="news">News</a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,7 +30,9 @@
                 @yield('content')
             </div>
         </div>
-
-        <script type="text/javascript" src="/js/app.min.js"></script>
+        <footer>
+            @yield('footer')
+            <script type="text/javascript" src="/js/app.min.js"></script>
+        </footer>
     </body>
 </html>
