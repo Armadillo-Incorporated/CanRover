@@ -9,10 +9,15 @@
 @stop
 
 @section('content')
-    <div class="small-10 small-centered columns">
-      <div class="sections">
-      <section id="about" data-magellan-target="about">
-          <h1>About</h1>
+<div class="title">
+    <div class="small-9 small-centered columns">
+        <h1 class="text-center">About</h1>
+    </div>
+</div>
+
+    <div class="row" id="about" data-magellan-target="about">
+    <div class="small-9 small-centered columns">
+      <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aperiam rerum officiis velit, inventore perferendis dolores odit! Sapiente, consequatur laudantium labore rem consequuntur voluptatibus, distinctio quasi impedit, natus nesciunt nisi?</span>
               <span>Adipisci, sint? Eos quia perferendis quam, sequi velit fugit excepturi similique, accusamus pariatur odio ab quibusdam quisquam. Quasi, beatae, incidunt. Necessitatibus commodi fugiat provident unde facilis dolor voluptates ipsam ex?</span>
@@ -26,8 +31,18 @@
               <span>Nobis quod at facere maiores aperiam totam dicta, saepe ipsum provident, accusamus perferendis possimus voluptas cupiditate voluptates nostrum necessitatibus veniam iure! Numquam earum at natus officia voluptatum quam vitae ad?</span>
           </p>
       </section>
-      <section id="team" data-magellan-target="team">
-          <h1>Team</h1>
+      </div>
+  </div>
+
+      <div class="title">
+          <div class="small-9 small-centered columns">
+              <h1 class="text-center">Team</h1>
+          </div>
+      </div>
+
+      <div class="row" id="team" data-magellan-target="team">
+      <div class="small-9 small-centered columns">
+      <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed assumenda obcaecati velit magnam quibusdam veritatis suscipit molestiae optio, amet corporis, provident et. Omnis, amet, ad. Vitae vel qui a, neque.</span>
               <span>Consequuntur ipsa cupiditate repellat corporis soluta doloremque amet, quas quaerat aperiam explicabo inventore facere ipsum atque optio incidunt. Quibusdam quam odio nisi voluptatem fugit non ipsum tenetur corporis blanditiis iure.</span>
@@ -41,8 +56,18 @@
               <span>Numquam placeat adipisci odio tenetur incidunt cumque quaerat nulla, excepturi voluptas saepe perferendis error quibusdam praesentium et, animi ad autem accusamus modi distinctio repudiandae officia veritatis in. Temporibus, ullam, ipsa.</span>
           </p>
       </section>
-      <section id="missions" data-magellan-target="missions">
-          <h1>Missions</h1>
+  </div>
+  </div>
+
+  <div class="title">
+      <div class="small-9 small-centered columns">
+          <h1 class="text-center">Missions</h1>
+      </div>
+  </div>
+
+  <div class="row" id="missions" data-magellan-target="missions">
+      <div class="small-9 small-centered columns">
+        <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
               <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
@@ -56,8 +81,18 @@
               <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
           </p>
       </section>
-      <section id="outreach" data-magellan-target="outreach">
-          <h1>Outreach</h1>
+  </div>
+  </div>
+
+  <div class="title">
+      <div class="small-9 small-centered columns">
+          <h1 class="text-center">Outreach</h1>
+      </div>
+  </div>
+
+  <div class="row" id="outreach" data-magellan-target="outreach">
+      <div class="small-9 small-centered columns">
+        <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
               <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
@@ -71,8 +106,18 @@
               <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
           </p>
       </section>
-      <section id="acknowledgements" data-magellan-target="acknowledgements">
-          <h1>Acknowledgements</h1>
+  </div>
+  </div>
+
+  <div class="title">
+      <div class="small-9 small-centered columns">
+          <h1 class="text-center">Acknowledgements</h1>
+      </div>
+  </div>
+
+  <div class="row" id="acknowledgements" data-magellan-target="acknowledgements">
+      <div class="small-9 small-centered columns">
+        <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
               <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
@@ -86,8 +131,18 @@
               <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
           </p>
       </section>
-      <section id="sponsors" data-magellan-target="sponsors">
-          <h1>Sponsors</h1>
+  </div>
+  </div>
+
+  <div class="title">
+      <div class="small-9 small-centered columns">
+          <h1 class="text-center">Sponsors</h1>
+      </div>
+  </div>
+
+  <div class="row" id="sponsors" data-magellan-target="sponsors">
+      <div class="small-9 small-centered columns">
+        <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
               <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
@@ -101,8 +156,18 @@
               <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
           </p>
       </section>
-      <section id="contactus" data-magellan-target="contactus">
-          <h1>Contact Us</h1>
+  </div>
+  </div>
+
+  <div class="title">
+      <div class="small-9 small-centered columns">
+          <h1 class="text-center">Contact Us</h1>
+      </div>
+  </div>
+
+  <div class="row">
+      <div class="small-9 small-centered columns" id="contactus" data-magellan-target="contactus">
+        <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
               <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
@@ -116,7 +181,7 @@
               <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
           </p>
       </section>
-    </div>
+  </div>
 </div>
 
 @stop

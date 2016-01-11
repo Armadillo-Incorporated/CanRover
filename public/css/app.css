@@ -22,6 +22,16 @@
   background-color: #ffa800;
   color: black; }
 
+.title {
+  padding: 20px 0px;
+  margin: 0;
+  background-color: #1f1f1f; }
+  .title h1 {
+    color: white; }
+
+section {
+  padding: 40px 0px; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.1.1

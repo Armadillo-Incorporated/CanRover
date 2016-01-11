@@ -1,7 +1,7 @@
 <?php
 
 define('APP_ROOT', __DIR__);
-define('BASE_URL', 'http://canrover.com');
+define('BASE_URL', 'http://www.canrover.com');
 
 /**
  * Laravel - A PHP Framework For Web Artisans
@@ -35,7 +35,7 @@ require __DIR__.'/../bootstrap/autoload.php';
 | the responses back to the browser and delight our users.
 |
 */
-echo "hellos";
+
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
 /*
