@@ -53,7 +53,7 @@
                 We all have a genuine interest in science, all of us want to follow careers in the field of space engineering, electrical engineering and architecture, therefore this is also a challenge to our abilities, during this adventure we will have a chance to test our management skills, our scientific knowledge, our team spirit and our will to take this project to the end.
             </p>
             <p>
-                The first objective is to win the National Final which will take place on April 16th and 17th in Torres Vedras and qualify for the International Challenge.
+                The first objective is to win the National Final which will take place on April 16th and 17th in Torres Vedras and qualify for the European Challenge.
           </p>
       </section>
   </div>
@@ -82,7 +82,7 @@
                 <li>Air pressure</li>
             </ul>
             <p>
-                It must be possible for the team to analyse the data obtained (for example, make a calculation of altitude) and display it in graphs (for example, altitude vs. time and temperature vs. altitude).
+                It must be possible for the team to analyse the data obtained and display it in graphs.
             </p>
             <p>
                 The secondary mission for the CanSat must be selected by the team. It can be based on other satellite missions, a perceived need for scientific data for a specific project, a technology demonstration for a student-designed component, or any other mission that would fit the CanSat’s capabilities.
