@@ -44,7 +44,7 @@
       <div class="small-9 small-centered columns">
       <section>
             <p>
-                We are a team of six students, all from the same class, class 12ºE from Escola Secundaria João de Deus, Faro. Faro is the district capital of the Algarve region in the South of Portugal.
+                We are a team of six students, all from the same class, class 12ºE from Escola Secundária João de Deus, Faro. Faro is the district capital of the Algarve region in the South of Portugal.
             </p>
             <p>
                 This is our first experience in building a satellite from scratch and it is also our first time dealing with this type of components and micro-components. Our main objective is to walk this road step by step until the end, the opportunity to visit ESA (European Space Agency) is our greatest motivation.
