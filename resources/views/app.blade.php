@@ -127,6 +127,45 @@
         </div>
         <footer>
             @yield('footer')
+            <div class="container">
+                <div class="row align-middle">
+                    <div class="columns">
+                            <nav data-magellan>
+                                <div class="row">
+                                    <ul class="vertical menu footer-navigation">
+                                        <li class="footer-navigation__button small-12 medium-6 columns">
+                                            <a href="{{BASE_URL}}#about"  href="{{BASE_URL}}#about" class="footer-navigation__link">About</a>
+                                        </li>
+                                        <li class="footer-navigation__button small-12 medium-6 columns">
+                                            <a href="{{BASE_URL}}#team"  href="{{BASE_URL}}#about" class="footer-navigation__link">Team</a>
+                                        </li>
+                                        <li class="footer-navigation__button small-12 medium-6 columns">
+                                            <a href="{{BASE_URL}}#missions" href="{{BASE_URL}}#about" class="footer-navigation__link">Missions</a>
+                                        </li>
+                                        <li class="footer-navigation__button small-12 medium-6 columns">
+                                            <a href="{{BASE_URL}}#outreach" href="{{BASE_URL}}#about" class="footer-navigation__link">Outreach</a>
+                                        </li>
+                                        <li class="footer-navigation__button small-12 medium-6 columns">
+                                            <a href="{{BASE_URL}}#acknowledgements" href="{{BASE_URL}}#about" class="footer-navigation__link">Acknowledgements</a>
+                                        </li>
+                                        <li class="footer-navigation__button small-12 medium-6 columns">
+                                            <a href="{{BASE_URL}}#sponsors" href="{{BASE_URL}}#about" class="footer-navigation__link">Sponsors</a>
+                                        </li>
+                                        <li class="footer-navigation__button small-12 medium-6 columns">
+                                            <a href="{{BASE_URL}}#contactus" href="{{BASE_URL}}#about" class="footer-navigation__link">Contact us</a>
+                                        </li>
+                                        <li class="footer-navigation__button small-12 medium-6 columns">
+                                            <a href="{{BASE_URL}}/news" class="footer-navigation__link">News</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                    </div>
+                    <div class="columns">
+                        <p class="copyright">© 2016 Armadillo, Inc</p>
+                    </div>
+                </div>
+            </div>
             <script type="text/javascript" src="/js/app.min.js"></script>
         </footer>
     </body>

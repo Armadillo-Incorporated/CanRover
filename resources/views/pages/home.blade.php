@@ -53,7 +53,7 @@
                 We all have a genuine interest in science, all of us want to follow careers in the field of space engineering, electrical engineering and architecture, therefore this is also a challenge to our abilities, during this adventure we will have a chance to test our management skills, our scientific knowledge, our team spirit and our will to take this project to the end.
             </p>
             <p>
-                The first objective is to win the National Final witch will take place on April 16th and 17th in Torres Vedras and qualify for the International Challenge.
+                The first objective is to win the National Final which will take place on April 16th and 17th in Torres Vedras and qualify for the International Challenge.
           </p>
       </section>
   </div>
