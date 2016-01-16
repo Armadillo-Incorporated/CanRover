@@ -3,6 +3,11 @@
 .top-bar {
   position: fixed;
   width: 100%; }
+  .top-bar-left li:nth-child(2) {
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3a300;
+    padding-top: 5px; }
 
 .navigation {
   padding-top: 5px; }
@@ -11,37 +16,44 @@
     border-radius: 7px;
     font-family: 'Josefin Sans', sans-serif; }
     .navigation__button a.active {
-      background-color: #ffa800;
+      background-color: #e3a300;
       color: black; }
     .navigation__button a:hover {
-      color: black; }
-    .navigation__button a:hover {
-      background-color: #ff8200; }
+      color: #e3a300; }
 
 .logo {
-  fill: #ffa800; }
+  fill: #e3a300;
+  position: relative; }
+  .logo svg {
+    position: absolute;
+    top: 0;
+    left: 0; }
   .logo--navigation {
-    margin: 0px 10px;
+    margin: 0px 15px;
     width: 40px;
     height: 40px; }
 
 .title {
   padding: 20px 0px;
   margin: 0;
-  background-color: #1f1f1f; }
+  background-color: #1f1e1e; }
   .title h1 {
     color: white;
     font-family: 'Josefin Sans', sans-serif; }
 
 section {
-  padding: 60px 0px; }
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 60px 40px;
+  background: #fefefe;
+  border-radius: 10px; }
   section ul {
-    width: 100%;
-    background: #e4e4e4;
+    width: 95%;
+    background: #cfcfcf;
+    color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     list-style-type: circle;
-    padding: 15px;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+    padding: 15px; }
     section ul li {
       margin-left: 15px; }
   section p {
@@ -964,7 +976,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
+  background: #f1f3f5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -2268,7 +2280,7 @@ legend {
   padding: 1.25rem;
   margin: 1.125rem 0; }
   .fieldset legend {
-    background: #fefefe;
+    background: #f1f3f5;
     padding: 0 0.1875rem;
     margin: 0;
     margin-left: -0.1875rem; }
@@ -2539,7 +2551,7 @@ select {
     margin: 0;
     font-size: inherit; }
     .button-group .button:not(:last-child) {
-      border-right: 1px solid #fefefe; }
+      border-right: 1px solid #f1f3f5; }
   .button-group.tiny {
     font-size: 0.6rem; }
   .button-group.small {
@@ -2593,7 +2605,7 @@ select {
     .button-group.stacked-for-small .button {
       width: auto; }
       .button-group.stacked-for-small .button:not(:last-child) {
-        border-right: 1px solid #fefefe; } }
+        border-right: 1px solid #f1f3f5; } }
 
 .callout {
   margin: 0 0 1rem 0;
@@ -2694,7 +2706,7 @@ select {
   margin-top: 14px; }
 
 .dropdown-pane {
-  background-color: #fefefe;
+  background-color: #f1f3f5;
   border: 1px solid #cacaca;
   display: block;
   padding: 1rem;
@@ -2970,7 +2982,7 @@ body {
 .off-canvas-content,
 .off-canvas-content {
   min-height: 100%;
-  background: #fefefe;
+  background: #f1f3f5;
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;

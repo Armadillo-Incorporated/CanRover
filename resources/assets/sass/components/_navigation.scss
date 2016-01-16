@@ -1,6 +1,15 @@
 .top-bar {
     position: fixed;
     width: 100%;
+
+    &-left {
+        li:nth-child(2) {
+            font-size: 25px;
+            font-family: 'Josefin Sans', sans-serif;
+            color: $primary-color;
+            padding-top: 5px;
+        }
+    }
 }
 
 .navigation {
@@ -13,26 +22,29 @@
             font-family: 'Josefin Sans', sans-serif;
 
             &.active {
-                background-color: rgb(255, 168, 0);
+                background-color: $primary-color;
                 color: black;
             }
 
             &:hover {
-                color: black;
-            }
-
-            &:hover {
-               background-color: rgb(255, 130, 0);
+                color: $primary-color;
             }
         }
     }
 }
 
 .logo {
-    fill: rgb(255, 168, 0);
+    fill: $primary-color;
+    position: relative;
+
+    svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 
     &--navigation {
-        margin: 0px 10px;
+        margin: 0px 15px;
         width: 40px;
         height: 40px;
     }
