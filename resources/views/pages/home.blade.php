@@ -9,14 +9,14 @@
 @stop
 
 @section('content')
-<div class="title">
-    <div class="small-9 small-centered columns">
+<div class="title" id="about">
+    <div class="small-12 medium-10 small-centered medium-centered columns">
         <h1 class="text-center">About</h1>
     </div>
 </div>
 
-    <div class="row" id="about" data-magellan-target="about">
-    <div class="small-9 small-centered columns">
+    <div class="row align-middle" data-magellan-target="about">
+    <div class="small-12 medium-10 small-centered columns">
         <section>
             <p>
               CanSats in Europe is an initiative of the European Space Agency (ESA), which also supports national CanSat events with the help of local organisations. These organisations are collaborating to increase the support for CanSat activities in Europe.
@@ -34,14 +34,14 @@
       </div>
   </div>
 
-      <div class="title">
-          <div class="small-9 small-centered columns">
+      <div class="title" id="team">
+          <div class="small-12 medium-10 small-centered medium-centered columns">
               <h1 class="text-center">Team</h1>
           </div>
       </div>
 
-      <div class="row" id="team" data-magellan-target="team">
-      <div class="small-9 small-centered columns">
+      <div class="row" data-magellan-target="team">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
       <section>
             <p>
                 We are a team of six students, all from the same class, class 12ºE from Escola Secundária João de Deus, Faro. Faro is the district capital of the Algarve region in the South of Portugal.
@@ -59,14 +59,14 @@
   </div>
   </div>
 
-  <div class="title">
-      <div class="small-9 small-centered columns">
+  <div class="title" id="missions">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Missions</h1>
       </div>
   </div>
 
-  <div class="row" id="missions" data-magellan-target="missions">
-      <div class="small-9 small-centered columns">
+  <div class="row" data-magellan-target="missions">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
             <p>
               Each cansat Project must complete 2 separate missions: a primary mission and a secondary mission.
@@ -91,14 +91,14 @@
   </div>
   </div>
 
-  <div class="title">
-      <div class="small-9 small-centered columns">
+  <div class="title" id="outreach">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Outreach</h1>
       </div>
   </div>
 
-  <div class="row" id="outreach" data-magellan-target="outreach">
-      <div class="small-9 small-centered columns">
+  <div class="row" data-magellan-target="outreach">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
@@ -116,14 +116,14 @@
   </div>
   </div>
 
-  <div class="title">
-      <div class="small-9 small-centered columns">
+  <div class="title" id="acknowledgements">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Acknowledgements</h1>
       </div>
   </div>
 
-  <div class="row" id="acknowledgements" data-magellan-target="acknowledgements">
-      <div class="small-9 small-centered columns">
+  <div class="row" data-magellan-target="acknowledgements">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
@@ -141,14 +141,14 @@
   </div>
   </div>
 
-  <div class="title">
-      <div class="small-9 small-centered columns">
+  <div class="title" id="sponsors">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Sponsors</h1>
       </div>
   </div>
 
-  <div class="row" id="sponsors" data-magellan-target="sponsors">
-      <div class="small-9 small-centered columns">
+  <div class="row" data-magellan-target="sponsors">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
           <p>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
@@ -167,13 +167,13 @@
   </div>
 
   <div class="title">
-      <div class="small-9 small-centered columns">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Contact Us</h1>
       </div>
   </div>
 
-  <div class="row">
-      <div class="small-9 small-centered columns" id="contactus" data-magellan-target="contactus">
+  <div class="row" id="contactus">
+      <div class="small-12 medium-10 small-centered medium-centered columns" data-magellan-target="contactus">
         <section>
           <p>
             For any additional explanation, clarification, feedback or any other type of contact please send us an email to <a href="mailto:canrover2016@gmail.com">canrover2016@gmail.com</a>
