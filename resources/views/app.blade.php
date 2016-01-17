@@ -106,7 +106,7 @@
                                         <li class="footer-navigation__button small-12 medium-6 columns">
                                             <a href="{{BASE_URL}}/news" class="footer-navigation__link">News</a>
                                         </li>
-                                        <li class="footer-navigation__button small-12 medium-6 columns">
+                                        <li class="footer-navigation__button small-12 medium-12 columns">
                                             <a href="{{BASE_URL}}/gallery" class="footer-navigation__link">Gallery</a>
                                         </li>
                                     </ul>
