@@ -42,21 +42,21 @@
 
       <div class="row" data-magellan-target="team">
       <div class="small-12 medium-10 small-centered medium-centered columns">
-      <section>
-            <p>
-                We are a team of six students, all from the same class, class 12ºE from Escola Secundária João de Deus, Faro. Faro is the district capital of the Algarve region in the South of Portugal.
-            </p>
-            <p>
-                This is our first experience in building a satellite from scratch and it is also our first time dealing with this type of components and micro-components. Our main objective is to walk this road step by step until the end, the opportunity to visit ESA (European Space Agency) is our greatest motivation.
-            </p>
-            <p>
-                We all have a genuine interest in science, all of us want to follow careers in the field of space engineering, electrical engineering and architecture, therefore this is also a challenge to our abilities, during this adventure we will have a chance to test our management skills, our scientific knowledge, our team spirit and our will to take this project to the end.
-            </p>
-            <p>
-                The first objective is to win the National Final which will take place on April 16th and 17th in Torres Vedras and qualify for the European Challenge.
-          </p>
-      </section>
-  </div>
+          <section>
+                <p>
+                    We are a team of six students, all from the same class, class 12ºE from Escola Secundária João de Deus, Faro. Faro is the district capital of the Algarve region in the South of Portugal.
+                </p>
+                <p>
+                    This is our first experience in building a satellite from scratch and it is also our first time dealing with this type of components and micro-components. Our main objective is to walk this road step by step until the end, the opportunity to visit ESA (European Space Agency) is our greatest motivation.
+                </p>
+                <p>
+                    We all have a genuine interest in science, all of us want to follow careers in the field of space engineering, electrical engineering and architecture, therefore this is also a challenge to our abilities, during this adventure we will have a chance to test our management skills, our scientific knowledge, our team spirit and our will to take this project to the end.
+                </p>
+                <p>
+                    The first objective is to win the National Final which will take place on April 16th and 17th in Torres Vedras and qualify for the European Challenge.
+              </p>
+          </section>
+      </div>
   </div>
 
   <div class="title" id="missions">
@@ -100,18 +100,7 @@
   <div class="row" data-magellan-target="outreach">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-          <p>
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
-              <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
-              <span>Voluptatem possimus, id ipsam consequuntur voluptatum dolore iusto porro quasi accusamus doloremque sunt illum, fugiat eligendi magnam atque quia vel adipisci. Nulla quam fugiat nemo in doloremque quaerat fugit expedita.</span>
-              <span>Fuga repellendus amet necessitatibus totam laudantium, optio adipisci blanditiis ad explicabo dicta tempora facere eum placeat, nemo magnam. Repellendus quaerat, qui necessitatibus eos fugiat doloremque facere natus, est doloribus recusandae?</span>
-              <span>Expedita fugiat doloribus beatae, ratione tempore saepe perspiciatis, quibusdam repudiandae tempora culpa ullam nostrum alias error atque voluptatum, explicabo possimus. Enim illum voluptas voluptatem dignissimos expedita, iusto itaque nisi accusamus!</span>
-              <span>Nostrum distinctio veritatis laboriosam dicta, a nisi consectetur tempora blanditiis voluptatem rerum voluptatibus illum quod quae dolore nemo doloremque cumque, ducimus aut aliquid at obcaecati! Vitae delectus in commodi, rem.</span>
-              <span>Nam assumenda a, tenetur magnam ad dignissimos incidunt velit, fugiat atque? Sequi, culpa blanditiis eligendi, quos tempore nesciunt laboriosam odio, saepe minima cumque vitae repellendus nisi accusamus magnam explicabo expedita?</span>
-              <span>Accusamus asperiores suscipit aliquam expedita. Qui nihil, libero excepturi soluta ad non, sunt tenetur amet debitis rerum facere, blanditiis itaque fugit maxime aliquid cumque aut veniam illo laudantium? Velit, esse.</span>
-              <span>Optio nulla minus iure vitae beatae omnis sequi qui voluptas quae velit. Nam, itaque, praesentium! Impedit explicabo tenetur facilis, eum fugiat earum quae dolorem! Iure est sapiente perferendis beatae cumque.</span>
-              <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
-          </p>
+          <p>Under development</p>
       </section>
   </div>
   </div>
@@ -125,18 +114,7 @@
   <div class="row" data-magellan-target="acknowledgements">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-          <p>
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
-              <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
-              <span>Voluptatem possimus, id ipsam consequuntur voluptatum dolore iusto porro quasi accusamus doloremque sunt illum, fugiat eligendi magnam atque quia vel adipisci. Nulla quam fugiat nemo in doloremque quaerat fugit expedita.</span>
-              <span>Fuga repellendus amet necessitatibus totam laudantium, optio adipisci blanditiis ad explicabo dicta tempora facere eum placeat, nemo magnam. Repellendus quaerat, qui necessitatibus eos fugiat doloremque facere natus, est doloribus recusandae?</span>
-              <span>Expedita fugiat doloribus beatae, ratione tempore saepe perspiciatis, quibusdam repudiandae tempora culpa ullam nostrum alias error atque voluptatum, explicabo possimus. Enim illum voluptas voluptatem dignissimos expedita, iusto itaque nisi accusamus!</span>
-              <span>Nostrum distinctio veritatis laboriosam dicta, a nisi consectetur tempora blanditiis voluptatem rerum voluptatibus illum quod quae dolore nemo doloremque cumque, ducimus aut aliquid at obcaecati! Vitae delectus in commodi, rem.</span>
-              <span>Nam assumenda a, tenetur magnam ad dignissimos incidunt velit, fugiat atque? Sequi, culpa blanditiis eligendi, quos tempore nesciunt laboriosam odio, saepe minima cumque vitae repellendus nisi accusamus magnam explicabo expedita?</span>
-              <span>Accusamus asperiores suscipit aliquam expedita. Qui nihil, libero excepturi soluta ad non, sunt tenetur amet debitis rerum facere, blanditiis itaque fugit maxime aliquid cumque aut veniam illo laudantium? Velit, esse.</span>
-              <span>Optio nulla minus iure vitae beatae omnis sequi qui voluptas quae velit. Nam, itaque, praesentium! Impedit explicabo tenetur facilis, eum fugiat earum quae dolorem! Iure est sapiente perferendis beatae cumque.</span>
-              <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
-          </p>
+          <p>Under development</p>
       </section>
   </div>
   </div>
@@ -150,29 +128,18 @@
   <div class="row" data-magellan-target="sponsors">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-          <p>
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem expedita totam consequuntur harum explicabo magnam quam distinctio fuga, inventore voluptatem in corporis nesciunt tempora, quas est molestiae ut nam?</span>
-              <span>Commodi sed dolor porro quo tenetur esse tempore illum doloribus, totam eius quos, similique, nisi aut, deleniti consectetur accusamus. Ullam id voluptas impedit quae aut enim eius corporis, dolores eligendi.</span>
-              <span>Voluptatem possimus, id ipsam consequuntur voluptatum dolore iusto porro quasi accusamus doloremque sunt illum, fugiat eligendi magnam atque quia vel adipisci. Nulla quam fugiat nemo in doloremque quaerat fugit expedita.</span>
-              <span>Fuga repellendus amet necessitatibus totam laudantium, optio adipisci blanditiis ad explicabo dicta tempora facere eum placeat, nemo magnam. Repellendus quaerat, qui necessitatibus eos fugiat doloremque facere natus, est doloribus recusandae?</span>
-              <span>Expedita fugiat doloribus beatae, ratione tempore saepe perspiciatis, quibusdam repudiandae tempora culpa ullam nostrum alias error atque voluptatum, explicabo possimus. Enim illum voluptas voluptatem dignissimos expedita, iusto itaque nisi accusamus!</span>
-              <span>Nostrum distinctio veritatis laboriosam dicta, a nisi consectetur tempora blanditiis voluptatem rerum voluptatibus illum quod quae dolore nemo doloremque cumque, ducimus aut aliquid at obcaecati! Vitae delectus in commodi, rem.</span>
-              <span>Nam assumenda a, tenetur magnam ad dignissimos incidunt velit, fugiat atque? Sequi, culpa blanditiis eligendi, quos tempore nesciunt laboriosam odio, saepe minima cumque vitae repellendus nisi accusamus magnam explicabo expedita?</span>
-              <span>Accusamus asperiores suscipit aliquam expedita. Qui nihil, libero excepturi soluta ad non, sunt tenetur amet debitis rerum facere, blanditiis itaque fugit maxime aliquid cumque aut veniam illo laudantium? Velit, esse.</span>
-              <span>Optio nulla minus iure vitae beatae omnis sequi qui voluptas quae velit. Nam, itaque, praesentium! Impedit explicabo tenetur facilis, eum fugiat earum quae dolorem! Iure est sapiente perferendis beatae cumque.</span>
-              <span>Laborum corrupti dolore consectetur iure nulla ea rem veniam sunt reprehenderit natus tempore illo delectus minus dolorum, officiis! Commodi possimus vero mollitia animi deleniti et omnis quibusdam amet tempora. Ut?</span>
-          </p>
+          <p>Under development</p>
       </section>
   </div>
   </div>
 
-  <div class="title">
+  <div class="title" id="contactus">
       <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Contact Us</h1>
       </div>
   </div>
 
-  <div class="row" id="contactus">
+  <div class="row">
       <div class="small-12 medium-10 small-centered medium-centered columns" data-magellan-target="contactus">
         <section>
           <p>
@@ -180,6 +147,34 @@
           </p>
       </section>
   </div>
+</div>
+
+<div class="title" id="news">
+    <div class="small-12 medium-10 small-centered medium-centered columns">
+        <h1 class="text-center">News</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 medium-10 small-centered medium-centered columns" data-magellan-target="news">
+        <section>
+            <p>Under Development</p>
+        </section>
+    </div>
+</div>
+
+<div class="title" id="gallery">
+    <div class="small-12 medium-10 small-centered medium-centered columns">
+        <h1 class="text-center">Gallery</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 medium-10 small-centered medium-centered columns" data-magellan-target="news">
+        <section>
+            <p>Under Development</p>
+        </section>
+    </div>
 </div>
 
 @stop

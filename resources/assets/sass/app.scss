@@ -3,9 +3,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto|Josefin+Sans);
 @import 'foundation/settings';
-@import 'components/navigation';
-@import 'components/title';
-@import 'components/footer';
 @import 'foundation';
 @import 'motion-ui';
 
@@ -48,3 +45,8 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import 'components/navigation';
+@import 'components/title';
+@import 'components/sections';
+@import 'components/footer';

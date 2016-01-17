@@ -36,6 +36,6 @@
     "commit": "b19360be6b44857bb1ec93f96478fc3086c0b642"
   },
   "_source": "git://github.com/zurb/foundation-sites.git",
-  "_target": "~6.1.0",
+  "_target": "~6.1.1",
   "_originalSource": "foundation-sites"
 }

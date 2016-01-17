@@ -17125,3 +17125,6 @@ Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle');
 }(jQuery, window.document, window.Foundation);
 
 $(document).foundation();
+
+var navHeight = $('.top-bar').height();
+$('.wrapper').css('padding-top', navHeight + 'px');
