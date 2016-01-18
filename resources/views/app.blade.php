@@ -38,8 +38,8 @@
                                     <li class="medium-nav__button"><a href="{{BASE_URL}}#acknowledgements">Acknowledgements</a></li>
                                     <li class="medium-nav__button"><a href="{{BASE_URL}}#sponsors">Sponsors</a></li>
                                     <li class="medium-nav__button"><a href="{{BASE_URL}}#contactus">Contact us</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}/news" class="news">News</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}/gallery" class="gallery">Gallery</a></li>
+                                    <li class="medium-nav__button"><a href="{{BASE_URL}}/news">News</a></li>
+                                    <li class="medium-nav__button"><a href="{{BASE_URL}}/gallery">Gallery</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -61,8 +61,8 @@
                             <li class="navigation__button"><a href="{{BASE_URL}}#acknowledgements">Acknowledgements</a></li>
                             <li class="navigation__button"><a href="{{BASE_URL}}#sponsors">Sponsors</a></li>
                             <li class="navigation__button"><a href="{{BASE_URL}}#contactus">Contact us</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}/news" class="news">News</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}/news" class="gallery">Gallery</a></li>
+                            <li class="navigation__button"><a href="{{BASE_URL}}/news">News</a></li>
+                            <li class="navigation__button"><a href="{{BASE_URL}}/news">Gallery</a></li>
                         </ul>
                     </nav>
             </div>
@@ -75,7 +75,6 @@
             </div>
 
         <footer>
-            @yield('footer')
             <div class="container">
                 <div class="row align-middle">
                     <div class="columns">
@@ -116,6 +115,7 @@
                     <div class="columns">
                         <p class="copyright">© 2016 Armadillo, Inc</p>
                     </div>
+                    @yield('footer')
                 </div>
             </div>
             <script type="text/javascript" src="/js/app.min.js"></script>

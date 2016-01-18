@@ -17126,5 +17126,9 @@ Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle');
 
 $(document).foundation();
 
+var pageHeight = $(document).height();
 var navHeight = $('.top-bar').height();
-$('.wrapper').css('padding-top', navHeight + 'px');
+var footerHeight = $('footer').height();
+var minHeight = pageHeight - (navHeight + footerHeight);
+
+$('.wrapper').css({'padding-top': navHeight + 'px', 'min-height': minHeight + 'px' });
