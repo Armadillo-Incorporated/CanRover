@@ -16,4 +16,8 @@ class PagesController extends Controller
     public function news() {
         return view('pages.news');
     }
+
+    public function report() {
+        return view('pages.report');
+    }
 }
