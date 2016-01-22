@@ -128,7 +128,9 @@
   <div class="row" data-magellan-target="sponsors">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-          <p>Under development</p>
+          <div class="small-12 medium-3 medium-centered columns">
+              <a href="http://www.skydivealgarve.com"><img src="img/sponsors/skydive-logo.png" alt="skydive logo" style="width: 100%;"/></a>
+          </div>
       </section>
   </div>
   </div>
