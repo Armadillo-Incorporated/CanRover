@@ -10,7 +10,8 @@
     <div class="row align-middle">
         <div class="small-12 medium-10 small-centered medium-centered columns">
             <section>
-                <div class="button primary"><a href="/Relatório final.pdf" download style="color: white;">Download</a></div>
+                <h1>Full Report Document</h1>
+                <div class="button primary"><a href="/Relatório final.pdf" download style="color: white;">Download PDF</a></div>
             </section>
         </div>
     </div>
