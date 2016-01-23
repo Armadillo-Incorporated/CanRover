@@ -4278,13 +4278,13 @@ table.hover tr:nth-of-type(even):hover {
   padding-top: 5px; }
   .navigation__button a {
     transition: color .1s ease-in-out, background-color .1s ease-in-out;
-    border-radius: 7px;
+    border-radius: 8px;
     font-family: 'Josefin Sans', sans-serif; }
     .navigation__button a.active {
-      background-color: #e3a300;
-      color: black; }
+      border: 2px dashed #e3a300;
+      color: #e3a300; }
     .navigation__button a:hover {
-      color: #b07e00; }
+      color: #ffbe17; }
 
 .logo {
   fill: #e3a300;
@@ -4379,3 +4379,7 @@ footer {
   color: rgba(255, 255, 255, 0.6); }
   .footer-navigation__link:hover {
     color: rgba(255, 255, 255, 0.8); }
+
+.header__image {
+  max-width: none;
+  width: 100%; }

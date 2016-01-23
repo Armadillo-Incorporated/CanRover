@@ -18,16 +18,16 @@
     &__button {
         a {
             transition: color .1s ease-in-out, background-color .1s ease-in-out;
-            border-radius: 7px;
+            border-radius: 8px;
             font-family: 'Josefin Sans', sans-serif;
 
             &.active {
-                background-color: $primary-color;
-                color: black;
+                border: 2px dashed $primary-color;
+                color: $primary-color;
             }
 
             &:hover {
-                color: darken($primary-color, 10%);
+                color: lighten($primary-color, 10%);
             }
         }
     }
