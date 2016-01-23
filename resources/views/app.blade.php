@@ -30,7 +30,7 @@
                         <li>
                             <button class="menu-icon hide-for-large" type="button" data-toggle="medium-nav"></button>
                             <div class="dropdown-pane" id="medium-nav" data-dropdown>
-                                <ul class="vertical menu medium-nav" data-magellan>
+                                <ul class="vertical menu medium-nav" data-magellan data-options="deepLinking: true; barOffset: 20; threshold: 90;">
                                     <li class="medium-nav__button"><a href="#about">About</a></li>
                                     <li class="medium-nav__button"><a href="#team">Team</a></li>
                                     <li class="medium-nav__button"><a href="#missions">Missions</a></li>
