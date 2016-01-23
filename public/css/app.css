@@ -4379,7 +4379,3 @@ footer {
   color: rgba(255, 255, 255, 0.6); }
   .footer-navigation__link:hover {
     color: rgba(255, 255, 255, 0.8); }
-
-.header__image {
-  max-width: none;
-  width: 100%; }

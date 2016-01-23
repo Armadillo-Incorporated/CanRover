@@ -30,16 +30,16 @@
                         <li>
                             <button class="menu-icon hide-for-large" type="button" data-toggle="medium-nav"></button>
                             <div class="dropdown-pane" id="medium-nav" data-dropdown>
-                                <ul class="vertical menu medium-nav">
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}#about">About</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}#team">Team</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}#missions">Missions</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}#outreach">Outreach</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}#acknowledgements">Acknowledgements</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}#sponsors">Sponsors</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}#contactus">Contact us</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}/news">News</a></li>
-                                    <li class="medium-nav__button"><a href="{{BASE_URL}}/gallery">Gallery</a></li>
+                                <ul class="vertical menu medium-nav" data-magellan>
+                                    <li class="medium-nav__button"><a href="#about">About</a></li>
+                                    <li class="medium-nav__button"><a href="#team">Team</a></li>
+                                    <li class="medium-nav__button"><a href="#missions">Missions</a></li>
+                                    <li class="medium-nav__button"><a href="#outreach">Outreach</a></li>
+                                    <li class="medium-nav__button"><a href="#acknowledgements">Acknowledgements</a></li>
+                                    <li class="medium-nav__button"><a href="#sponsors">Sponsors</a></li>
+                                    <li class="medium-nav__button"><a href="#contactus">Contact us</a></li>
+                                    <li class="medium-nav__button"><a href="#news">News</a></li>
+                                    <li class="medium-nav__button"><a href="#gallery">Gallery</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -52,17 +52,17 @@
                     </ul>
             </div>
             <div class="top-bar-right">
-                    <nav data-magellan class="show-for-large">
-                        <ul class="horizontal menu navigation">
-                            <li class="navigation__button"><a href="{{BASE_URL}}#about">About</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}#team">Team</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}#missions">Missions</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}#outreach">Outreach</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}#acknowledgements">Acknowledgements</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}#sponsors">Sponsors</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}#contactus">Contact us</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}/news">News</a></li>
-                            <li class="navigation__button"><a href="{{BASE_URL}}/news">Gallery</a></li>
+                    <nav class="show-for-large">
+                        <ul class="horizontal menu navigation" data-magellan>
+                            <li class="navigation__button"><a href="#about">About</a></li>
+                            <li class="navigation__button"><a href="#team">Team</a></li>
+                            <li class="navigation__button"><a href="#missions">Missions</a></li>
+                            <li class="navigation__button"><a href="#outreach">Outreach</a></li>
+                            <li class="navigation__button"><a href="#acknowledgements">Acknowledgements</a></li>
+                            <li class="navigation__button"><a href="#sponsors">Sponsors</a></li>
+                            <li class="navigation__button"><a href="#contactus">Contact us</a></li>
+                            <li class="navigation__button"><a href="#news">News</a></li>
+                            <li class="navigation__button"><a href="#gallery">Gallery</a></li>
                         </ul>
                     </nav>
             </div>
@@ -78,35 +78,35 @@
             <div class="container">
                 <div class="row align-middle">
                     <div class="columns">
-                            <nav data-magellan>
+                            <nav>
                                 <div class="row">
                                     <ul class="vertical menu footer-navigation">
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="{{BASE_URL}}#about"  href="{{BASE_URL}}#about" class="footer-navigation__link">About</a>
+                                            <a href="#about"  href="#about" class="footer-navigation__link">About</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="{{BASE_URL}}#team"  href="{{BASE_URL}}#about" class="footer-navigation__link">Team</a>
+                                            <a href="#team"  href="#about" class="footer-navigation__link">Team</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="{{BASE_URL}}#missions" href="{{BASE_URL}}#about" class="footer-navigation__link">Missions</a>
+                                            <a href="#missions" href="#about" class="footer-navigation__link">Missions</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="{{BASE_URL}}#outreach" href="{{BASE_URL}}#about" class="footer-navigation__link">Outreach</a>
+                                            <a href="#outreach" href="#about" class="footer-navigation__link">Outreach</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="{{BASE_URL}}#acknowledgements" href="{{BASE_URL}}#about" class="footer-navigation__link">Acknowledgements</a>
+                                            <a href="#acknowledgements" href="#about" class="footer-navigation__link">Acknowledgements</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="{{BASE_URL}}#sponsors" href="{{BASE_URL}}#about" class="footer-navigation__link">Sponsors</a>
+                                            <a href="#sponsors" href="#about" class="footer-navigation__link">Sponsors</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="{{BASE_URL}}#contactus" href="{{BASE_URL}}#about" class="footer-navigation__link">Contact us</a>
+                                            <a href="#contactus" href="#about" class="footer-navigation__link">Contact us</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="{{BASE_URL}}/news" class="footer-navigation__link">News</a>
+                                            <a href="#news" class="footer-navigation__link">News</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-12 columns">
-                                            <a href="{{BASE_URL}}/gallery" class="footer-navigation__link">Gallery</a>
+                                            <a href="#gallery" class="footer-navigation__link">Gallery</a>
                                         </li>
                                     </ul>
                                 </div>
