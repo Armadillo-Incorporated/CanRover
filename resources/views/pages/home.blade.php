@@ -196,7 +196,7 @@
                         </div>
                       </li>
 
-                      @foreach ($gallery_photos as $photo)
+
                       <li class="orbit-slide">
                         <div>
                           <h3 class="text-center">1: You can also throw some text in here!</h3>
@@ -204,7 +204,7 @@
                           <h3 class="text-center">This Orbit slider does not use animations.</h3>
                         </div>
                       </li>
-                      @endforeach
+                     
                     </ul>
                     <nav class="orbit-bullets">
                      <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>

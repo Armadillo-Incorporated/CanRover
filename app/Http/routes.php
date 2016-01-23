@@ -17,7 +17,7 @@ Route::get('/news', 'PagesController@news');
 
 Route::get('/report', 'PagesController@report');
 
-Route::get('/gallery', 'PagesController@gallery');
+Route::get('/gallery', 'AlbumController@index');
 
 /*
 |--------------------------------------------------------------------------
