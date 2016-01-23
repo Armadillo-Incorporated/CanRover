@@ -1,9 +1,11 @@
 @extends('app')
 
 @section('header')
-        <header>
-            <img src="/img/header.jpg" alt="Header picture" style="width=100%">
+    <div class="expanded row">
+        <header class="header">
+            <img src="/img/header.jpg" alt="Header picture" class="header__image">
         </header>
+    </div>
 @stop
 
 @section('content')
