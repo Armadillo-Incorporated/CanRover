@@ -1,7 +1,7 @@
 <?php
 
 define('APP_ROOT', __DIR__);
-define('BASE_URL', 'http://www.canrover.com');
+define('BASE_URL', 'http://canrover.app');
 
 /**
  * Laravel - A PHP Framework For Web Artisans

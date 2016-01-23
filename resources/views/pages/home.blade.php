@@ -7,13 +7,13 @@
 @stop
 
 @section('content')
-<div class="title" id="about">
+<div class="title" id="about" data-magellan-target="about">
     <div class="small-12 medium-10 small-centered medium-centered columns">
         <h1 class="text-center">About</h1>
     </div>
 </div>
 
-    <div class="row align-middle" data-magellan-target="about">
+    <div class="row align-middle">
     <div class="small-12 medium-10 small-centered columns">
         <section>
             <p>
@@ -32,13 +32,13 @@
       </div>
   </div>
 
-      <div class="title" id="team">
+      <div class="title" id="team" data-magellan-target="team">
           <div class="small-12 medium-10 small-centered medium-centered columns">
               <h1 class="text-center">Team</h1>
           </div>
       </div>
 
-      <div class="row" data-magellan-target="team">
+      <div class="row">
       <div class="small-12 medium-10 small-centered medium-centered columns">
           <section>
                 <p>
@@ -57,13 +57,13 @@
       </div>
   </div>
 
-  <div class="title" id="missions">
+  <div class="title" id="missions" data-magellan-target="missions">
       <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Missions</h1>
       </div>
   </div>
 
-  <div class="row" data-magellan-target="missions">
+  <div class="row">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
             <p>
@@ -89,13 +89,13 @@
   </div>
   </div>
 
-  <div class="title" id="outreach">
+  <div class="title" id="outreach" data-magellan-target="outreach">
       <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Outreach</h1>
       </div>
   </div>
 
-  <div class="row" data-magellan-target="outreach">
+  <div class="row">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
           <p>Under development</p>
@@ -103,13 +103,13 @@
   </div>
   </div>
 
-  <div class="title" id="acknowledgements">
+  <div class="title" id="acknowledgements" data-magellan-target="acknowledgements">
       <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Acknowledgements</h1>
       </div>
   </div>
 
-  <div class="row" data-magellan-target="acknowledgements">
+  <div class="row">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
           <p>Under development</p>
@@ -117,13 +117,13 @@
   </div>
   </div>
 
-  <div class="title" id="sponsors">
+  <div class="title" id="sponsors" data-magellan-target="sponsors">
       <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Sponsors</h1>
       </div>
   </div>
 
-  <div class="row" data-magellan-target="sponsors">
+  <div class="row">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
           <div class="small-12 medium-3 medium-centered columns">
@@ -133,14 +133,14 @@
   </div>
   </div>
 
-  <div class="title" id="contactus">
+  <div class="title" id="contactus" data-magellan-target="contactus">
       <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Contact Us</h1>
       </div>
   </div>
 
   <div class="row">
-      <div class="small-12 medium-10 small-centered medium-centered columns" data-magellan-target="contactus">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
           <p>
             For any additional explanation, clarification, feedback or any other type of contact please send us an email to <a href="mailto:canrover2016@gmail.com">canrover2016@gmail.com</a>
@@ -149,28 +149,28 @@
   </div>
 </div>
 
-<div class="title" id="news">
+<div class="title" id="news" data-magellan-target="news">
     <div class="small-12 medium-10 small-centered medium-centered columns">
         <h1 class="text-center">News</h1>
     </div>
 </div>
 
 <div class="row">
-    <div class="small-12 medium-10 small-centered medium-centered columns" data-magellan-target="news">
+    <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
             <p>Under Development</p>
         </section>
     </div>
 </div>
 
-<div class="title" id="gallery">
+<div class="title" id="gallery" data-magellan-target="gallery">
     <div class="small-12 medium-10 small-centered medium-centered columns">
         <h1 class="text-center">Gallery</h1>
     </div>
 </div>
 
 <div class="row">
-    <div class="small-12 medium-10 small-centered medium-centered columns" data-magellan-target="news">
+    <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
             <p>Under Development</p>
         </section>
