@@ -17,6 +17,8 @@ Route::get('/news', 'PagesController@news');
 
 Route::get('/report', 'PagesController@report');
 
+Route::get('/gallery', 'PagesController@gallery');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

@@ -172,7 +172,47 @@
 <div class="row">
     <div class="small-12 medium-10 small-centered medium-centered columns" data-magellan-target="news">
         <section>
-            <p>Under Development</p>
+            <ul class="tabs" data-tabs id="gallery-tabs">
+              <li class="tabs-title is-active"><a href="#images-tab" aria-selected="true">Images</a></li>
+              <li class="tabs-title"><a href="#videos-tab">Videos</a></li>
+            </ul>
+
+            <div class="tabs-content" data-tabs-content="gallery-tabs">
+              <div class="tabs-panel is-active" id="images-tab">
+                  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-use-m-u-i="false" data-pause-on-hover="true" data-auto-play="false">
+                    <ul class="orbit-container">
+                      <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                      <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                      <li class="orbit-slide">
+                        <div>
+                          <h3 class="text-center">1: You can also throw some text in here!</h3>
+                          <p class="text-center">Achieve an animation-free Orbit with the data attribute data-use-m-u-i="false"</p>
+                          <h3 class="text-center">This Orbit slider does not use animations.</h3>
+                        </div>
+                      </li>
+
+                      @foreach ($gallery_photos as $photo)
+                      <li class="orbit-slide">
+                        <div>
+                          <h3 class="text-center">1: You can also throw some text in here!</h3>
+                          <p class="text-center">Achieve an animation-free Orbit with the data attribute data-use-m-u-i="false"</p>
+                          <h3 class="text-center">This Orbit slider does not use animations.</h3>
+                        </div>
+                      </li>
+                      @endforeach
+                    </ul>
+                    <nav class="orbit-bullets">
+                     <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                     <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                     <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                     <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                   </nav>
+                  </div>
+              </div>
+              <div class="tabs-panel" id="videos-tab">
+                <p>hey</p>
+              </div>
+            </div>
         </section>
     </div>
 </div>
