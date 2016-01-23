@@ -11,7 +11,7 @@
         <div class="small-12 medium-10 small-centered medium-centered columns">
             <section>
                 <h1>Full Report Document</h1>
-                <div class="button primary"><a href="/Full_Report.pdf" download style="color: white;">Download PDF</a></div>
+                <div class="button primary"><a href="/Full_Report.pdf" style="color: white;">Download PDF</a></div>
             </section>
         </div>
     </div>
