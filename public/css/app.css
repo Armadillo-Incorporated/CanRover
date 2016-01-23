@@ -4278,7 +4278,7 @@ table.hover tr:nth-of-type(even):hover {
   padding-top: 5px; }
   .navigation__button a {
     transition: color .1s ease-in-out, background-color .1s ease-in-out;
-    border-radius: 7px;
+    border-radius: 8px;
     font-family: 'Josefin Sans', sans-serif; }
     .navigation__button a.active {
       border: 2px dashed #e3a300;
