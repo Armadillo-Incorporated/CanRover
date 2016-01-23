@@ -53,7 +53,7 @@
             </div>
             <div class="top-bar-right">
                     <nav class="show-for-large">
-                        <ul class="horizontal menu navigation" data-magellan>
+                        <ul class="horizontal menu navigation" data-magellan data-options="deepLinking: true; barOffset: 20; threshold: 90;">
                             <li class="navigation__button"><a href="#about">About</a></li>
                             <li class="navigation__button"><a href="#team">Team</a></li>
                             <li class="navigation__button"><a href="#missions">Missions</a></li>
