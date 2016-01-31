@@ -126,10 +126,15 @@
   <div class="row">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-          <div class="small-12 medium-3 medium-centered columns">
-              <a href="http://www.skydivealgarve.com"><img src="img/sponsors/skydive-logo.png" alt="skydive logo" style="width: 100%;"/></a>
-          </div>
-      </section>
+            <div class="row align-center">
+              <div class="small-12 medium-3 columns">
+                  <a href="http://www.skydivealgarve.com"><img src="img/sponsors/skydive-logo.png" alt="skydive logo" style="width: 100%;"/></a>
+              </div>
+              <div class="small-12 medium-3 columns">
+                  <a href="http://www.english21.pt"><img src="img/sponsors/english21-logo.png" alt="english21 logo" style="width: 100%;"/></a>
+              </div>
+            </div>
+        </section>
   </div>
   </div>
 
