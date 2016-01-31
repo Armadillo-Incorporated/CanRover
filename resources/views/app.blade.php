@@ -27,22 +27,11 @@
         <div class="top-bar">
             <div class="top-bar-left">
                     <ul class="horizontal menu">
-                        <li>
-                            <button class="menu-icon hide-for-large" type="button" data-toggle="medium-nav"></button>
-                            <div class="dropdown-pane" id="medium-nav" data-dropdown>
-                                <ul class="vertical menu medium-nav" data-magellan data-options="deepLinking: true; barOffset: 20; threshold: 90;">
-                                    <li class="medium-nav__button"><a href="#about">About</a></li>
-                                    <li class="medium-nav__button"><a href="#team">Team</a></li>
-                                    <li class="medium-nav__button"><a href="#missions">Missions</a></li>
-                                    <li class="medium-nav__button"><a href="#outreach">Outreach</a></li>
-                                    <li class="medium-nav__button"><a href="#acknowledgements">Acknowledgements</a></li>
-                                    <li class="medium-nav__button"><a href="#sponsors">Sponsors</a></li>
-                                    <li class="medium-nav__button"><a href="#contactus">Contact us</a></li>
-                                    <li class="medium-nav__button"><a href="#news">News</a></li>
-                                    <li class="medium-nav__button"><a href="#gallery">Gallery</a></li>
-                                </ul>
-                            </div>
-                        </li>
+                      <li class="hide-for-large">
+                        <span >
+                          <span class="menu-icon dark" data-toggle="menu"></span>
+                        </span>
+                      </li>
                         <li>
                             <div class="logo logo--navigation">
                                 <?php echo file_get_contents("img/CanRover Logo.svg"); ?>
@@ -51,6 +40,19 @@
                         <li id="site-title">CanRover</li>
                     </ul>
             </div>
+            <nav class="small-12 columns hide hide-for-large" id="menu" data-toggler=".hide">
+              <div class="row medium-nav" style="width: 100%;" data-magellan data-options="deepLinking: true; barOffset: 15; threshold: 90;">
+                <div class="small-12 medium-6 columns medium-nav__button"><a href="#about" data-toggle="menu">About</a></div>
+                <div class="small-12 medium-6 columns medium-nav__button"><a href="#team" data-toggle="menu">Team</a></div>
+                <div class="small-12 medium-6 columns medium-nav__button"><a href="#missions" data-toggle="menu">Missions</a></div>
+                <div class="small-12 medium-6 columns medium-nav__button"><a href="#outreach" data-toggle="menu">Outreach</a></div>
+                <div class="small-12 medium-6 columns medium-nav__button"><a href="#acknowledgements" data-toggle="menu">Acknowledgements</a></div>
+                <div class="small-12 medium-6 columns medium-nav__button"><a href="#sponsors" data-toggle="menu">Sponsors</a></div>
+                <div class="small-12 medium-6 columns medium-nav__button"><a href="#contactus" data-toggle="menu">Contact us</a></div>
+                <div class="small-12 medium-6 columns medium-nav__button"><a href="#news" data-toggle="menu">News</a></div>
+                <div class="small-12 medium-6 columns medium-nav__button"><a href="#gallery" data-toggle="menu">Gallery</a></div>
+              </div>
+              </nav>
             <div class="top-bar-right">
                     <nav class="show-for-large">
                         <ul class="horizontal menu navigation" data-magellan data-options="deepLinking: true; barOffset: 20; threshold: 90;">
