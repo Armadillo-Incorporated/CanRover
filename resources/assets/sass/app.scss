@@ -46,6 +46,7 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import 'mixins/BEM';
 @import 'components/navigation';
 @import 'components/title';
 @import 'components/sections';
