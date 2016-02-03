@@ -3008,7 +3008,7 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 0;
   margin-bottom: 0;
   color: #fefefe;
   background-color: rgba(10, 10, 10, 0.5); }
@@ -3044,12 +3044,12 @@ body {
     width: 1.2rem;
     height: 1.2rem;
     margin: 0.1rem;
-    background-color: #cacaca;
+    background-color: #ffcc4a;
     border-radius: 50%; }
     .orbit-bullets button:hover {
-      background-color: #8a8a8a; }
+      background-color: #e3a300; }
     .orbit-bullets button.is-active {
-      background-color: #8a8a8a; }
+      background-color: #e3a300; }
 
 .pagination {
   margin-left: 0;

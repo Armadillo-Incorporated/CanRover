@@ -11,14 +11,6 @@
 |
 */
 
-Route::get('/', 'PagesController@home');
-
-Route::get('/news', 'PagesController@news');
-
-Route::get('/report', 'PagesController@report');
-
-Route::get('/gallery', 'AlbumController@index');
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -30,6 +22,20 @@ Route::get('/gallery', 'AlbumController@index');
 |
 */
 
-Route::group(['middleware' => ['web']], function () {
-    //
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+
+    Route::group(['middleware' => 'guest'], function() {
+        Route::get('/', 'PagesController@home');
+
+        Route::get('/news', 'PagesController@news');
+
+        Route::get('/report', 'PagesController@report');
+    });
+
+    Route::group(['middleware' => 'auth'], function() {
+            // Route::get('/gallery/{album}/upload', 'HomeController@index');
+            Route::get('/register', 'Auth\AuthController@showRegistrationForm');
+            Route::post('/register', 'Auth\AuthController@register');
+    });
 });

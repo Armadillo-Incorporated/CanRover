@@ -23,10 +23,8 @@ class PagesController extends Controller
     public function report() {
         return view('pages.report');
     }
-
+    
     public function gallery() {
-
-
         return view('pages.gallery');
     }
 }
