@@ -20,6 +20,7 @@
             transition: color .1s ease-in-out, background-color .1s ease-in-out;
             border-radius: 8px;
             font-family: 'Josefin Sans', sans-serif;
+            color: white;
 
             &.active {
                 border: 2px dashed $primary-color;
@@ -63,6 +64,7 @@
             padding: 8px 0px;
             display: block;
             width: 100%;
+            color: white;
 
             &.active {
               border: 2px dashed $primary-color;

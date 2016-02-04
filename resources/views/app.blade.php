@@ -39,7 +39,7 @@
     </head>
     <body>
         <div class="top-bar">
-            <div class="top-bar-left">
+            <div class="top-bar-left row align-middle">
                     <ul class="horizontal menu">
                       <li class="hide-for-large">
                         <span >
@@ -53,18 +53,34 @@
                         </li>
                         <li id="site-title">CanRover</li>
                     </ul>
+
+            @if (!Auth::guest())
+            <div class="show-for-large">
+                <ul class="dropdown menu" style="margin-left: 20px;" data-dropdown-menu data-options="closeOnClick: true; autoclose: false; disableHover: true; clickOpen: true;">
+                    <li>
+                        <a href="#">{{ Auth::user()->name }}</a>
+                        <ul class="menu">
+                            <li><a href="{{ url('/dashboard') }}">Dashboard</a></li>
+                            <li><a href="#">Create Post</a></li>
+                            <li><a href="#">Upload Photos</a></li>
+                            <li><a href="{{ url('/logout') }}">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            @endif
             </div>
             <nav class="small-12 columns hide hide-for-large" id="menu" data-toggler=".hide">
-              <div class="row medium-nav" style="width: 100%;" data-magellan data-options="deepLinking: true; barOffset: 15; threshold: 90;">
-                <div class="small-12 medium-6 columns medium-nav__button"><a href="#about" data-toggle="menu">About</a></div>
-                <div class="small-12 medium-6 columns medium-nav__button"><a href="#team" data-toggle="menu">Team</a></div>
-                <div class="small-12 medium-6 columns medium-nav__button"><a href="#missions" data-toggle="menu">Missions</a></div>
-                <div class="small-12 medium-6 columns medium-nav__button"><a href="#outreach" data-toggle="menu">Outreach</a></div>
-                <div class="small-12 medium-6 columns medium-nav__button"><a href="#acknowledgements" data-toggle="menu">Acknowledgements</a></div>
-                <div class="small-12 medium-6 columns medium-nav__button"><a href="#sponsors" data-toggle="menu">Sponsors</a></div>
-                <div class="small-12 medium-6 columns medium-nav__button"><a href="#contactus" data-toggle="menu">Contact us</a></div>
-                <div class="small-12 medium-6 columns medium-nav__button"><a href="#news" data-toggle="menu">News</a></div>
-                <div class="small-12 medium-6 columns medium-nav__button"><a href="#gallery" data-toggle="menu">Gallery</a></div>
+              <div class="row medium-nav align-center" style="width: 100%;" data-magellan data-options="deepLinking: true; barOffset: 15; threshold: 90;">
+                <div class="small-12 medium-5 columns medium-nav__button"><a href="#about" data-toggle="menu">About</a></div>
+                <div class="small-12 medium-5 columns medium-nav__button"><a href="#team" data-toggle="menu">Team</a></div>
+                <div class="small-12 medium-5 columns medium-nav__button"><a href="#missions" data-toggle="menu">Missions</a></div>
+                <div class="small-12 medium-5 columns medium-nav__button"><a href="#outreach" data-toggle="menu">Outreach</a></div>
+                <div class="small-12 medium-5 columns medium-nav__button"><a href="#acknowledgements" data-toggle="menu">Acknowledgements</a></div>
+                <div class="small-12 medium-5 columns medium-nav__button"><a href="#sponsors" data-toggle="menu">Sponsors</a></div>
+                <div class="small-12 medium-5 columns medium-nav__button"><a href="#contactus" data-toggle="menu">Contact us</a></div>
+                <div class="small-12 medium-5 columns medium-nav__button"><a href="#news" data-toggle="menu">News</a></div>
+                <div class="small-12 medium-5 columns medium-nav__button"><a href="#gallery" data-toggle="menu">Gallery</a></div>
               </div>
               </nav>
             <div class="top-bar-right">

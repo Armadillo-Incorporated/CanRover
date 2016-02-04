@@ -12,7 +12,6 @@
         <h1 class="text-center">About</h1>
     </div>
 </div>
-
     <div class="row align-middle">
     <div class="small-12 medium-10 small-centered columns">
         <section>
@@ -204,7 +203,7 @@
                           <h3 class="text-center">This Orbit slider does not use animations.</h3>
                         </div>
                       </li>
-                     
+
                     </ul>
                     <nav class="orbit-bullets">
                      <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
