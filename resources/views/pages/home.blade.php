@@ -148,7 +148,11 @@
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
           <p>
-            For any additional explanation, clarification, feedback or any other type of contact please send us an email to <a href="mailto:canrover2016@gmail.com">canrover2016@gmail.com</a>
+            For any additional explanation, clarification, feedback or any other type of contact:
+            <ul>
+              <li>Send us an email to <a href="mailto:canrover2016@gmail.com">canrover2016@gmail.com</a></li>
+              <li>Follow our <a href="https://www.facebook.com/canrover2016">Facebook</a> page.</li>
+            </ul>
           </p>
       </section>
   </div>
