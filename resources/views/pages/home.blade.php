@@ -195,12 +195,16 @@
 <div class="row">
     <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-            <h4 class="subheader"> 
-                {{ $article->title }}
-                <hr>
-            </h4>
-            <p> {{ $article->body }} </p>
-            <a href="{{ url('/articles') }}">Read more articles</a>
+            @if (!empty($article))
+              <h4 class="subheader"> 
+                  {{ $article->title }}
+                  <hr>
+              </h4>
+              <p> {{ $article->body }} </p>
+              <a href="{{ url('/articles') }}">Read more articles</a>
+            @else
+              <p>There are no news</p>
+            @endif
         </section>
     </div>
 </div>
