@@ -195,7 +195,7 @@
 <div class="row">
     <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-            @if (!empty($article))
+            @if ($article->count())
               <h4 class="subheader"> 
                   {{ $article->title }}
                   <hr>
