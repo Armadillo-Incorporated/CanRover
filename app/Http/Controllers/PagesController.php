@@ -7,13 +7,16 @@ use Illuminate\Http\Request;
 use CanRover\Http\Requests;
 use CanRover\Http\Controllers\Controller;
 
+use CanRover\Photo;
+use CanRover\Article;
+
 class PagesController extends Controller
 {
     public function home() {
-        // $gallery_photos = \DB::table('gallery_photos')->select('photo_filename', 'photo_caption')->get();
-        // $gallery_categories = \DB::table('gallery_category')->select('category_name')->get();
+        $photos = Photo::recent();
+        $article = Article::recent();
 
-        return view('pages.home');
+        return view('pages.home', compact('photos', 'article'));
     }
 
     public function news() {

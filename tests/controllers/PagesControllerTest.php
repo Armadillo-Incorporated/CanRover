@@ -4,16 +4,12 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class ExampleTest extends TestCase
+class PagesControllerTest extends TestCase
 {
-    /**
-     * A basic functional test example.
-     *
-     * @return void
-     */
-    public function testBasicExample()
-    {
+    /** @test */
+    public function it_shows_the_gallery()   {
         $this->visit('/')
-             ->see('Laravel 5');
+             ->click('gallery')
+             ->seePageIs('album');
     }
 }

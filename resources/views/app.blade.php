@@ -20,73 +20,61 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <title>CanRover</title>
+        <title>@yield('title', 'CanRover')</title>
         <link rel="stylesheet" href="/css/app.min.css">
-
-        <!-- Fonts -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div class="top-bar">
             <div class="top-bar-left row align-middle">
-                    <ul class="horizontal menu">
-                      <li class="hide-for-large">
-                        <span >
-                          <span class="menu-icon dark" data-toggle="menu"></span>
-                        </span>
-                      </li>
-                        <li>
-                            <div class="logo logo--navigation">
-                                <?php echo file_get_contents("img/CanRover Logo.svg"); ?>
-                            </div>
-                        </li>
-                        <li id="site-title">CanRover</li>
-                    </ul>
-
-            @if (!Auth::guest())
-            <div class="show-for-medium">
-                <ul class="dropdown menu" style="margin-left: 20px;" data-dropdown-menu data-options="closeOnClick: true; autoclose: false; disableHover: true; clickOpen: true;">
-                    <li>
-                        <a href="#">{{ Auth::user()->name }}</a>
-                        <ul class="menu">
-                            <li><a href="{{ url('/dashboard') }}">Dashboard</a></li>
-                            <li><a href="#">Create Post</a></li>
-                            <li><a href="#">Upload Photos</a></li>
-                            <li><a href="{{ url('/logout') }}">Logout</a></li>
-                        </ul>
+                <ul class="horizontal menu">
+                    <li class="hide-for-large">
+                        <span class="menu-icon dark" data-toggle="menu"></span>
                     </li>
+                    <li>
+                        <div class="logo logo--navigation">
+                            <?php echo @file_get_contents("img/CanRover Logo.svg"); ?>
+                        </div>
+                    </li>
+                    <li id="site-title">CanRover</li>
                 </ul>
-            </div>
-            @endif
-            </div>
-            <nav class="small-12 columns hide hide-for-large" id="menu" data-toggler=".hide">
-              <div class="row medium-nav align-center" style="width: 100%;" data-magellan data-options="deepLinking: true; barOffset: 15; threshold: 90;">
-                <div class="small-12 medium-5 columns medium-nav__button"><a href="#about" data-toggle="menu">About</a></div>
-                <div class="small-12 medium-5 columns medium-nav__button"><a href="#team" data-toggle="menu">Team</a></div>
-                <div class="small-12 medium-5 columns medium-nav__button"><a href="#missions" data-toggle="menu">Missions</a></div>
-                <div class="small-12 medium-5 columns medium-nav__button"><a href="#outreach" data-toggle="menu">Outreach</a></div>
-                <div class="small-12 medium-5 columns medium-nav__button"><a href="#acknowledgements" data-toggle="menu">Acknowledgements</a></div>
-                <div class="small-12 medium-5 columns medium-nav__button"><a href="#sponsors" data-toggle="menu">Sponsors</a></div>
-                <div class="small-12 medium-5 columns medium-nav__button"><a href="#contactus" data-toggle="menu">Contact us</a></div>
-                <div class="small-12 medium-5 columns medium-nav__button"><a href="#news" data-toggle="menu">News</a></div>
-                <div class="small-12 medium-5 columns medium-nav__button"><a href="#gallery" data-toggle="menu">Gallery</a></div>
-              </div>
-              </nav>
-            <div class="top-bar-right">
-                    <nav class="show-for-large">
-                        <ul class="horizontal menu navigation" data-magellan data-options="deepLinking: true; barOffset: 20; threshold: 90;">
-                            <li class="navigation__button"><a href="#about">About</a></li>
-                            <li class="navigation__button"><a href="#team">Team</a></li>
-                            <li class="navigation__button"><a href="#missions">Missions</a></li>
-                            <li class="navigation__button"><a href="#outreach">Outreach</a></li>
-                            <li class="navigation__button"><a href="#acknowledgements">Acknowledgements</a></li>
-                            <li class="navigation__button"><a href="#sponsors">Sponsors</a></li>
-                            <li class="navigation__button"><a href="#contactus">Contact us</a></li>
-                            <li class="navigation__button"><a href="#news">News</a></li>
-                            <li class="navigation__button"><a href="#gallery">Gallery</a></li>
+
+                @if (!Auth::guest())
+                    <div class="show-for-medium">
+                        <ul class="dropdown menu" style="margin-left: 20px;" data-dropdown-menu data-options="closeOnClick: true; autoclose: false; disableHover: true; clickOpen: true;">
+                            <li>
+                                <a href="#">{{ Auth::user()->name }}</a>
+                                <ul class="menu">
+                                    <li><a href="{{ url('/dashboard') }}">Dashboard</a></li>
+                                    <li><a href="{{ url('/articles/create') }}">Create Article</a></li>
+                                    <li><a href="{{ url('/register') }}">Register new user</a></li>
+                                    <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i> Logout</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                    </nav>
+                    </div>
+                @endif
+            </div>
+            
+            <div class="top-bar-right">
+                <nav class="small-12 columns hide hide-for-large" id="menu" data-toggler=".hide">
+                    @yield('navigation.top-bar-small')
+                </nav>        
+
+                <nav class="show-for-large">
+                    @yield('navigation.top-bar-large', ' 
+                        <ul class="horizontal menu navigation">
+                            <li class="navigation__button">
+                                <a href="/"><i class="fa fa-home"></i> Home</a>
+                            </li>
+                            <li class="navigation__button">
+                                <a href="/articles"><i class="fa fa-newspaper-o"></i> News</a>
+                            </li>
+                            <li class="navigation__button">
+                                <a href="/album"><i class="fa fa-picture-o"></i> Gallery</a>
+                            </li>
+                        </ul>
+                        ')
+                </nav>
             </div>
         </div>
 
@@ -141,6 +129,8 @@
                 </div>
             </div>
             <script type="text/javascript" src="/js/app.min.js"></script>
+            @yield('scripts.footer')
+            @include('partials/flash')
         </footer>
     </body>
 </html>

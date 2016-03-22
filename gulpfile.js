@@ -14,13 +14,17 @@
 
     var sassPaths = [
         'bower_components/foundation-sites/scss',
-        'bower_components/motion-ui/src'
+        'bower_components/motion-ui/src',
+        'bower_components/sweetalert/dist/',
+        'bower_components/dropzone/dist/'
     ];
 
     var scriptPaths = [
         'bower_components/jquery/dist/jquery.js',
         'bower_components/what-input/what-input.js',
         'bower_components/foundation-sites/dist/foundation.js',
+        'bower_components/sweetalert/dist/sweetalert.min.js',
+        'bower_components/dropzone/dist/dropzone.js',
         'resources/assets/scripts/app.js'
     ];
 

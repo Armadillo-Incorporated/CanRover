@@ -1,6 +1,10 @@
-.header {
-    @include e('image') {
-      max-width: none;
-      width: 100%;
-    }
+.header-image {
+    position: relative;
+    padding-bottom: 44%;
+    width: 100%;
+
+    background: url(../img/IMG_0502.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
 }
