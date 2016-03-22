@@ -14,7 +14,7 @@ Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
     Route::group(['middleware' => 'auth'], function() {
-        Route::resource('articles', 'ArticlesController', ['except' => ['index, show']]);
+        Route::resource('articles', 'ArticlesController', ['except' => ['index', 'show']]);
 
         Route::get('/album/{album}/upload', 'AlbumsController@upload');
         Route::post('/album/{album}/photos', 'AlbumsController@addPhotos');
