@@ -57,7 +57,13 @@
             
             <div class="top-bar-right">
                 <nav class="small-12 columns hide hide-for-large" id="menu" data-toggler=".hide">
-                    @yield('navigation.top-bar-small')
+                    @yield('navigation.top-bar-small', '
+                        <div class="row medium-nav align-center" style="width: 100%;">
+                            <div class="small-12 medium-5 columns medium-nav__button"><a href="/" data-toggle="menu"><i class="fa fa-home"></i> Home</a></div>
+                            <div class="small-12 medium-5 columns medium-nav__button"><a href="/articles" data-toggle="menu"><i class="fa fa-newspaper-o"></i> News</a></div>
+                            <div class="small-12 medium-5 columns medium-nav__button"><a href="/album" data-toggle="menu"><i class="fa fa-picture-o"></i> Gallery</a></div>
+                        </div>
+                    ')
                 </nav>        
 
                 <nav class="show-for-large">
