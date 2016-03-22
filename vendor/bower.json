@@ -1,0 +1,22 @@
+{
+  "name": "CanRover",
+  "version": "1.0.0",
+  "authors": [
+    "Armadillo <armadilloincorporated@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.php",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
