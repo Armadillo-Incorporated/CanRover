@@ -1,0 +1,18 @@
+.orbit {
+    width: 100%;
+}
+
+.orbit-slide {
+    overflow-y: hidden;
+    padding-top: 22%;
+    padding-bottom: 22%;
+    width: 100%;
+
+    img {
+        position: absolute; 
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+    }
+}

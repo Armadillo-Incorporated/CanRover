@@ -1,9 +1,38 @@
 @extends('app')
 
+{{-- Navigation for small and medium screens --}}
+@section('navigation.top-bar-small')
+  <div class="row medium-nav align-center" style="width: 100%;" data-magellan data-options="deepLinking: true; barOffset: 15; threshold: 90;">
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#about" data-toggle="menu">About</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#team" data-toggle="menu">Team</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#missions" data-toggle="menu">Missions</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#outreach" data-toggle="menu">Outreach</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#acknowledgements" data-toggle="menu">Acknowledgements</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#sponsors" data-toggle="menu">Sponsors</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#contactus" data-toggle="menu">Contact us</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#news" data-toggle="menu"><i class="fa fa-newspaper-o"></i> News</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#gallery" data-toggle="menu"><i class="fa fa-picture-o"></i> Gallery</a></div>
+  </div>
+@stop
+
+@section('navigation.top-bar-large')
+
+  {{-- Navigation for large screens --}}
+  <ul class="horizontal menu navigation" data-magellan data-options="barOffset: 20; threshold: 90;">
+      <li class="navigation__button"><a href="#about">About</a></li>
+      <li class="navigation__button"><a href="#team">Team</a></li>
+      <li class="navigation__button"><a href="#missions">Missions</a></li>
+      <li class="navigation__button"><a href="#outreach">Outreach</a></li>
+      <li class="navigation__button"><a href="#acknowledgements">Acknowledgements</a></li>
+      <li class="navigation__button"><a href="#sponsors">Sponsors</a></li>
+      <li class="navigation__button"><a href="#contactus">Contact us</a></li>
+      <li class="navigation__button"><a href="#news"><i class="fa fa-newspaper-o"></i> News</a></li>
+      <li class="navigation__button"><a href="#gallery"><i class="fa fa-picture-o"></i>Gallery</a></li>
+  </ul>
+@stop
+
 @section('header')
-        <header class="header">
-            <img src="/img/header.jpg" alt="Header picture" class="header__image">
-        </header>
+  <header class="header-image"></header>
 @stop
 
 @section('content')
@@ -12,7 +41,6 @@
         <h1 class="text-center">About</h1>
     </div>
 </div>
-
     <div class="row align-middle">
     <div class="small-12 medium-10 small-centered columns">
         <section>
@@ -127,10 +155,10 @@
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
             <div class="row align-center">
-              <div class="small-12 medium-3 columns">
+              <div class="small-12 medium-4 columns" style="margin-bottom: 30px;">
                   <a href="http://www.skydivealgarve.com"><img src="img/sponsors/skydive-logo.png" alt="skydive logo" style="width: 100%;"/></a>
               </div>
-              <div class="small-12 medium-3 columns">
+              <div class="small-12 medium-4 columns">
                   <a href="http://www.english21.pt"><img src="img/sponsors/english21-logo.png" alt="english21 logo" style="width: 100%;"/></a>
               </div>
             </div>
@@ -167,7 +195,12 @@
 <div class="row">
     <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-            <p>Under Development</p>
+            <h4 class="subheader"> 
+                {{ $article->title }}
+                <hr>
+            </h4>
+            <p> {{ $article->body }} </p>
+            <a href="{{ url('/articles') }}">Read more articles</a>
         </section>
     </div>
 </div>
@@ -178,12 +211,26 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="small-12 medium-10 small-centered medium-centered columns">
-        <section>
-            <p>Under Development</p>
-        </section>
+<div class="row expanded">
+  <div class="orbit" role="region" aria-label="Recent pictures" data-orbit data-use-m-u-i="true" data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+    <ul class="orbit-container">
+      <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+      <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+      @foreach ($photos as $photo)
+        <li class="orbit-slide">
+          <img src="{{ $photo->photo }}" alt="$">
+        </li>
+      @endforeach
+      <a href="{{ url('album') }}" name="gallery">
+        <figcaption class="orbit-caption text-center" style="padding: 20px 0px">Open gallery</figcaption>
+      </a>
+      </ul>
+      <nav class="orbit-bullets">
+        <button class="is-active" data-slide="0"></button>
+        <button data-slide="1"></button>
+        <button data-slide="2"></button>
+        <button data-slide="3"></button>
+      </nav>
     </div>
-</div>
-
+  </div>
 @stop

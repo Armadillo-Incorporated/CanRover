@@ -1,7 +1,7 @@
 .title {
     padding: 20px 0px;
     position: relative;
-    margin: 0;
+    margin-bottom: 30px;
     background-color: rgb(31, 30, 30);
 
     &:after {
@@ -17,10 +17,15 @@
     	border-top-color: rgb(31, 30, 30);
     	border-width: 15px;
     	margin-left: -15px;
+        z-index: 1;
     }
 
     h1 {
         color: white;
         font-family: 'Josefin Sans', sans-serif;
     }
+}
+
+.orbit:focus {
+    outline: none;
 }
