@@ -54,7 +54,7 @@
                         </tr>
                         @foreach ($articles as $article)
                             <tr>
-                                <td><a href="{{ url(sprintf('album/%s', $article->slug)) }}">{{ $article->title }}</a></td>
+                                <td><a href="{{ url(sprintf('articles/%s', $article->slug)) }}">{{ $article->title }}</a></td>
                                 <td>{{ $article->created_at }}</td>
                                 <td>{{ $article->updated_at }}</td>
                                 <td><a href="{{ url('articles' . '/' . $article->slug . '/edit') }}" class="button button-primary expanded">Edit</a></td>
