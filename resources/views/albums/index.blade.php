@@ -25,7 +25,7 @@
                 <h8 class="small-12 columns subheader" style="font-family: 'Roboto', sans-serif; padding: 2px 25px;">
                     PHOTOS
                 </h8>
-                <div class="small-12 small-up-1 medium-up-3 large-up-4">
+                <div class="small-12 small-up-2 medium-up-3 large-up-4">
                     @foreach ($album->photos->take($photos_to_show) as $photo)
                         <a href="{{ url($photo->photo) }}" class="album__photo-link column" style="margin: 10px 0px">
                             <img src="{{ url($photo->thumbnail_path) }}" class="album__photo thumbnail" style="box-shadow: 0px 3px 3px rgba(0,0,0,0.3)" alt="">
