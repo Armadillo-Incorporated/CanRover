@@ -12,7 +12,7 @@
     </div>
         <div class="row">
             <div class="small-12 medium-8 medium-centered">
-                <table class="hover album-list">
+                <table class="hover scroll album-list">
                         <tr>
                             <th scope="column">Album</th>
                             <th scope="column">Created On</th>
@@ -23,7 +23,7 @@
                         </tr>
                         @foreach ($albums as $album)
                             <tr>
-                                <td>{{ $album->name }}</td>
+                                <td><a href="{{ url(sprintf('album/%s', $album->slug)) }}">{{ $album->name }}</a></td>
                                 <td>{{ $album->created_at }}</td>
                                 <td>{{ $album->updated_at }}</td>
                                 <td><a href="{{ url('album' . '/' . $album->slug . '/edit') }}" class="button button-primary expanded">Edit</a></td>
@@ -44,7 +44,7 @@
 
     <div class="row">
             <div class="small-12 medium-8 medium-centered">
-                <table class="hover album-list">
+                <table class="hover scroll album-list">
                         <tr>
                             <th scope="column">Article</th>
                             <th scope="column">Created On</th>
@@ -54,7 +54,7 @@
                         </tr>
                         @foreach ($articles as $article)
                             <tr>
-                                <td>{{ $article->title }}</td>
+                                <td><a href="{{ url(sprintf('album/%s', $article->slug)) }}">{{ $article->title }}</a></td>
                                 <td>{{ $article->created_at }}</td>
                                 <td>{{ $article->updated_at }}</td>
                                 <td><a href="{{ url('articles' . '/' . $article->slug . '/edit') }}" class="button button-primary expanded">Edit</a></td>
