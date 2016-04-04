@@ -107,9 +107,6 @@
                                             <a href="#missions" href="#about" class="footer-navigation__link">Missions</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="#outreach" href="#about" class="footer-navigation__link">Outreach</a>
-                                        </li>
-                                        <li class="footer-navigation__button small-12 medium-6 columns">
                                             <a href="#acknowledgements" href="#about" class="footer-navigation__link">Acknowledgements</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">

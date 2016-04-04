@@ -24,8 +24,8 @@
                         @foreach ($albums as $album)
                             <tr>
                                 <td><a href="{{ url(sprintf('album/%s', $album->slug)) }}">{{ $album->name }}</a></td>
-                                <td>{{ $album->created_at }}</td>
-                                <td>{{ $album->updated_at }}</td>
+                                <td>{{ (new DateTime($album->created_at))->format("d/m/Y") }}</td>
+                                <td>{{ (new DateTime($album->updated_at))->format("d/m/Y") }}</td>
                                 <td><a href="{{ url('album' . '/' . $album->slug . '/edit') }}" class="button button-primary expanded">Edit</a></td>
                                 <td>
                                     <a href="{{ url('album' . '/' . $album->slug . '/upload') }}" class="button button-primary expanded">Upload</a>
@@ -55,8 +55,8 @@
                         @foreach ($articles as $article)
                             <tr>
                                 <td><a href="{{ url(sprintf('articles/%s', $article->slug)) }}">{{ $article->title }}</a></td>
-                                <td>{{ $article->created_at }}</td>
-                                <td>{{ $article->updated_at }}</td>
+                                <td>{{ (new DateTime($article->created_at))->format("d/m/Y") }}</td>
+                                <td>{{ (new DateTime($article->updated_at))->format("d/m/Y") }}</td>
                                 <td><a href="{{ url('articles' . '/' . $article->slug . '/edit') }}" class="button button-primary expanded">Edit</a></td>
                                 <td><a href="{{ url('articles/' . $article->slug) }}" class="button button-primary expanded">Delete</a></td>
                             </tr>

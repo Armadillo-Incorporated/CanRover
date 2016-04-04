@@ -6,7 +6,6 @@
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#about" data-toggle="menu">About</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#team" data-toggle="menu">Team</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#missions" data-toggle="menu">Missions</a></div>
-      <div class="small-12 medium-5 columns medium-nav__button"><a href="#outreach" data-toggle="menu">Outreach</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#acknowledgements" data-toggle="menu">Acknowledgements</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#sponsors" data-toggle="menu">Sponsors</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#contactus" data-toggle="menu">Contact us</a></div>
@@ -22,7 +21,6 @@
       <li class="navigation__button"><a href="#about">About</a></li>
       <li class="navigation__button"><a href="#team">Team</a></li>
       <li class="navigation__button"><a href="#missions">Missions</a></li>
-      <li class="navigation__button"><a href="#outreach">Outreach</a></li>
       <li class="navigation__button"><a href="#acknowledgements">Acknowledgements</a></li>
       <li class="navigation__button"><a href="#sponsors">Sponsors</a></li>
       <li class="navigation__button"><a href="#contactus">Contact us</a></li>
@@ -117,20 +115,6 @@
   </div>
   </div>
 
-  <div class="title" id="outreach" data-magellan-target="outreach">
-      <div class="small-12 medium-10 small-centered medium-centered columns">
-          <h1 class="text-center">Outreach</h1>
-      </div>
-  </div>
-
-  <div class="row">
-      <div class="small-12 medium-10 small-centered medium-centered columns">
-        <section>
-          <p>Under development</p>
-      </section>
-  </div>
-  </div>
-
   <div class="title" id="acknowledgements" data-magellan-target="acknowledgements">
       <div class="small-12 medium-10 small-centered medium-centered columns">
           <h1 class="text-center">Acknowledgements</h1>
@@ -155,11 +139,20 @@
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
             <div class="row align-center">
-              <div class="small-12 medium-4 columns" style="margin-bottom: 30px;">
+              <div class="small-12 medium-4 columns" style="margin-bottom: 30px">
                   <a href="http://www.skydivealgarve.com"><img src="img/sponsors/skydive-logo.png" alt="skydive logo" style="width: 100%;"/></a>
               </div>
               <div class="small-12 medium-4 columns">
                   <a href="http://www.english21.pt"><img src="img/sponsors/english21-logo.png" alt="english21 logo" style="width: 100%;"/></a>
+              </div>
+              <div class="small-12 medium-4 columns">
+                  <a href="http://www.brimarel.com"><img src="img/sponsors/brimarel2.png" alt="brimarel logo" style="width: 100%;"/></a>
+              </div>
+              <div class="small-12 medium-4 columns">
+                  <a href="http://www.globus.pt"><img src="img/sponsors/globus.png" alt="globus logo" style="width: 100%;"/></a>
+              </div>
+              <div class="small-12 medium-4 columns">
+                  <a href="https://www.ualg.pt"><img src="img/sponsors/ualg.png" alt="ualg logo" style="width: 100%;"/></a>
               </div>
             </div>
         </section>
