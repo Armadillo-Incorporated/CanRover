@@ -155,7 +155,7 @@
                   <a href="https://www.ualg.pt"><img src="img/sponsors/ualg.png" alt="ualg logo" style="width: 100%;"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="https://www.ualg.pt"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:80px; margin-top: -30px;"/></a>
+                  <a href="https://www.facebook.com/arcoirisprintshop"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:80px; margin-top: -30px;"/></a>
               </div>
             </div>
         </section>
