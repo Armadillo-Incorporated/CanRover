@@ -54,7 +54,7 @@
                     </div>
                 @endif
             </div>
-            
+
             <div class="top-bar-right">
                 <nav class="small-12 columns hide hide-for-large" id="menu" data-toggler=".hide">
                     @yield('navigation.top-bar-small', '
@@ -64,10 +64,10 @@
                             <div class="small-12 medium-5 columns medium-nav__button"><a href="/album" data-toggle="menu"><i class="fa fa-picture-o"></i> Gallery</a></div>
                         </div>
                     ')
-                </nav>        
+                </nav>
 
                 <nav class="show-for-large">
-                    @yield('navigation.top-bar-large', ' 
+                    @yield('navigation.top-bar-large', '
                         <ul class="horizontal menu navigation">
                             <li class="navigation__button">
                                 <a href="/"><i class="fa fa-home"></i> Home</a>
@@ -107,7 +107,7 @@
                                             <a href="#missions" href="#about" class="footer-navigation__link">Missions</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
-                                            <a href="#acknowledgements" href="#about" class="footer-navigation__link">Acknowledgements</a>
+                                            <a href="#coordination" href="#about" class="footer-navigation__link">Coordination</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
                                             <a href="#sponsors" href="#about" class="footer-navigation__link">Sponsors</a>

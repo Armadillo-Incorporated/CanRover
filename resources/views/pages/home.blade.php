@@ -6,7 +6,7 @@
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#about" data-toggle="menu">About</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#team" data-toggle="menu">Team</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#missions" data-toggle="menu">Missions</a></div>
-      <div class="small-12 medium-5 columns medium-nav__button"><a href="#acknowledgements" data-toggle="menu">Acknowledgements</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#coordination" data-toggle="menu">Coordination</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#sponsors" data-toggle="menu">Sponsors</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#contactus" data-toggle="menu">Contact us</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#news" data-toggle="menu"><i class="fa fa-newspaper-o"></i> News</a></div>
@@ -21,7 +21,7 @@
       <li class="navigation__button"><a href="#about">About</a></li>
       <li class="navigation__button"><a href="#team">Team</a></li>
       <li class="navigation__button"><a href="#missions">Missions</a></li>
-      <li class="navigation__button"><a href="#acknowledgements">Acknowledgements</a></li>
+      <li class="navigation__button"><a href="#coordination">Coordination</a></li>
       <li class="navigation__button"><a href="#sponsors">Sponsors</a></li>
       <li class="navigation__button"><a href="#contactus">Contact us</a></li>
       <li class="navigation__button"><a href="#news"><i class="fa fa-newspaper-o"></i> News</a></li>
@@ -115,9 +115,9 @@
   </div>
   </div>
 
-  <div class="title" id="acknowledgements" data-magellan-target="acknowledgements">
+  <div class="title" id="coordination" data-magellan-target="coordination">
       <div class="small-12 medium-10 small-centered medium-centered columns">
-          <h1 class="text-center">Acknowledgements</h1>
+          <h1 class="text-center">Coordination</h1>
       </div>
   </div>
 
@@ -154,6 +154,9 @@
               <div class="small-12 medium-4 columns">
                   <a href="https://www.ualg.pt"><img src="img/sponsors/ualg.png" alt="ualg logo" style="width: 100%;"/></a>
               </div>
+              <div class="small-12 medium-4 columns">
+                  <a href="https://www.ualg.pt"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:80px; margin-top: -30px;"/></a>
+              </div>
             </div>
         </section>
   </div>
@@ -189,7 +192,7 @@
     <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
             @if ($article->count())
-              <h4 class="subheader"> 
+              <h4 class="subheader">
                   {{ $article->title }}
                   <hr>
               </h4>

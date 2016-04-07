@@ -1713,6 +1713,7 @@ body.stop-scrolling {
 .row.align-top {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
+              -ms-grid-row-align: flex-start;
           align-items: flex-start; }
 
 .column.align-top, .align-top.columns {
@@ -1723,6 +1724,7 @@ body.stop-scrolling {
 .row.align-bottom {
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
+              -ms-grid-row-align: flex-end;
           align-items: flex-end; }
 
 .column.align-bottom, .align-bottom.columns {
@@ -1733,6 +1735,7 @@ body.stop-scrolling {
 .row.align-middle {
   -webkit-align-items: center;
       -ms-flex-align: center;
+              -ms-grid-row-align: center;
           align-items: center; }
 
 .column.align-middle, .align-middle.columns {
@@ -1743,6 +1746,7 @@ body.stop-scrolling {
 .row.align-stretch {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
+              -ms-grid-row-align: stretch;
           align-items: stretch; }
 
 .column.align-stretch, .align-stretch.columns {
