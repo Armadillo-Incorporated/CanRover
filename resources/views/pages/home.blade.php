@@ -79,6 +79,48 @@
                 <p>
                     The first objective is to win the National Final which will take place on April 16th and 17th in Torres Vedras and qualify for the European Challenge.
               </p>
+
+            <br>
+            <br>
+            <h1 class="text-center">Members</h1>
+            <div class="member">
+              <img src="/img/team/daniel.png" alt="daniel photo" class="avatar">
+              <div class="small-3 medium-9 small-centered medium-centered columns">
+                <p>Daniel Santos is 18 years old and is from Faro. He wants to be apart of the militar airforce.</p>
+              </div>
+            </div>
+            <div class="member">
+              <img src="/img/team/hernani.jpg" alt="hernani photo" class="avatar">
+              <div class="small-3 medium-9 small-centered medium-centered columns">
+                <p>Hernâni Sousa is 18 years old and is from Faro. He wants to become a mechanic engineer.</p>
+              </div>
+            </div>
+            <div class="member">
+              <img src="/img/team/ines.jpg" alt="ines photo" class="avatar">
+              <div class="small-3 medium-9 small-centered medium-centered columns">
+                <p>Inês Duarte is 17 years old and is from Coimbra. She wants to become an aeroespacial engineer.</p>
+              </div>
+            </div>
+            <div class="member">
+              <img src="/img/team/joao.png" alt="joao photo" class="avatar">
+              <div class="small-3 medium-9 small-centered medium-centered columns">
+                <p>João Costa is 17 years old and is from Faro. He wants to become a computer engineer.</p>
+              </div>
+            </div>
+            <div class="member">
+              <img src="/img/team/jonas.jpg" alt="jonas photo" class="avatar">
+              <div class="small-3 medium-9 small-centered medium-centered columns">
+                <p>Jonas Rodrigues is 17 years old and is from Faro. He wants to become a computer engineer.</p>
+              </div>
+            </div>
+            <div class="member">
+              <img src="/img/team/marta.png" alt="marta photo" class="avatar">
+              <div class="small-3 medium-9 small-centered medium-centered columns">
+                <p>Marta is 17 years old and is from Faro. She wants to become a multimedia designer.</p>
+              </div>
+            </div>
+            <h1 class="text-center" style="margin-top: 20px;">Group Photo</h1>
+            <img src="/img/team/team.jpg" alt="team photo" style="border-radius:10%; ">
           </section>
       </div>
   </div>
@@ -95,21 +137,16 @@
             <p>
               Each cansat Project must complete 2 separate missions: a primary mission and a secondary mission.
             </p>
-            <p>
-                The team must build a CanSat and program it to accomplish the compulsory primary mission, as follows:
+            <p>The CanRover (CanSat) will collect data from several atmospheric elements and, following its landing, it will move along a predefined trajectory.
             </p>
             <p>
-                After release and during descent, the CanSat shall measure the following parameters and transmit the data as telemetry at least once every second to the ground station:
-            </p>
-            <ul>
-                <li>Air temperature</li>
-                <li>Air pressure</li>
-            </ul>
-            <p>
-                It must be possible for the team to analyse the data obtained and display it in graphs.
+            The main objective of the CanRover is to serve as a prototype to a future recon mission of a planet, in which a satellite must be able to provide enough data to characterize the atmosphere – temperature, pressure and humidity – as well as the surface – surface relief and magnetic field – of the new planet.
             </p>
             <p>
-                The secondary mission for the CanSat must be selected by the team. It can be based on other satellite missions, a perceived need for scientific data for a specific project, a technology demonstration for a student-designed component, or any other mission that would fit the CanSat’s capabilities.
+             The project has two missions, a primary mission and a secondary mission. The primary mission is to measure temperature and atmospheric pressure during its fall with the aid of sensors and a parachute. The secondary mission is divided in two stages. The first stage involves the measures obtained during the fall whereas the second stage is related with the trajectory of the CanRover on the ground. During the fall, the CanRover will calculate air humidity (using the same sensor that measures temperature), latitude, longitude, and time using a GPS system. With the aid of an accelerometer, it will also gather information about the magnetic field, direction, and inclination; furthermore it will register altimetry variations using a precision altimeter. Along the predefined surface journey all these elements continue to be measured, and the altimeter will provide information to delineate the topography of the area. Data collection is made every second.
+            </p>
+             <p>
+            The journey of the CanRover can be followed in Google Maps, with this project it will be possible to characterize the atmosphere when it comes to temperature, pressure and humidity and also collect information about the Earth’s magnetic field and the surface where the CanRover lands.
             </p>
       </section>
   </div>
@@ -124,7 +161,24 @@
   <div class="row">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-          <p>Under development</p>
+          <div class="member">
+            <img src="/img/team/duarte.png" alt="duarte photo" class="avatar">
+            <div class="small-3 medium-9 small-centered medium-centered columns">
+              <p style="padding-top:3%">D. Duarte is an assistant professor at University of Algarve (UAlg), lecturing in marine geology, marine morphodynamics, geological oceanography, and coastal processes and wetlands. He has more than 27 years of research experience, and participated in more than 30 national and European research projects, being the coordinator of several local projects.</p>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/img/team/conduto.jpg" alt="conduto photo" class="avatar">
+            <div class="small-3 medium-9 small-centered medium-centered columns">
+              <p style="padding-top:12%">José Conduto</p>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/img/team/vitor.png" alt="vitor photo" class="avatar" style="width: 200px;">
+            <div class="small-3 medium-9 small-centered medium-centered columns">
+              <p style="padding-top:12%">Vitor Guerreiro</p>
+            </div>
+          </div>
       </section>
   </div>
   </div>
@@ -155,7 +209,7 @@
                   <a href="https://www.ualg.pt"><img src="img/sponsors/ualg.png" alt="ualg logo" style="width: 100%;"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="https://www.facebook.com/arcoirisprintshop"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:80px; margin-top: -30px;"/></a>
+                  <a href="https://www.facebook.com/arcoirisprintshopulp"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:80px; margin-top: -30px;"/></a>
               </div>
             </div>
         </section>
