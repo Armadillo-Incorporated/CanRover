@@ -82,45 +82,47 @@
 
             <br>
             <br>
-            <h1 class="text-center">Members</h1>
-            <div class="member">
+            <h1 class="text-center subtitle">Members</h1>
+            <div class="member shake" style="margin-top:0;">
               <img src="/img/team/daniel.png" alt="daniel photo" class="avatar">
               <div class="small-3 medium-9 small-centered medium-centered columns">
-                <p>Daniel Santos is 18 years old and is from Faro. He wants to be apart of the militar airforce.</p>
+                <p><b>Daniel Santos</b> is 18 years old and is from Faro. He wants to be apart of the militar airforce.</p>
               </div>
             </div>
-            <div class="member">
+            <div class="member shake">
               <img src="/img/team/hernani.jpg" alt="hernani photo" class="avatar">
               <div class="small-3 medium-9 small-centered medium-centered columns">
-                <p>Hernâni Sousa is 18 years old and is from Faro. He wants to become a mechanic engineer.</p>
+                <p><b>Hernâni Sousa</b> is 18 years old and is from Faro. He wants to become a mechanic engineer.</p>
               </div>
             </div>
-            <div class="member">
-              <img src="/img/team/ines.jpg" alt="ines photo" class="avatar">
+            <div class="member shake">
+              <img src="/img/sponsors/ines.jpg" alt="ines photo" class="avatar">
               <div class="small-3 medium-9 small-centered medium-centered columns">
-                <p>Inês Duarte is 17 years old and is from Coimbra. She wants to become an aeroespacial engineer.</p>
+                <p><b>Inês Duarte</b> is 17 years old and is from Coimbra. She wants to become an aeroespacial engineer.</p>
               </div>
             </div>
-            <div class="member">
+            <div class="member shake">
               <img src="/img/team/joao.png" alt="joao photo" class="avatar">
               <div class="small-3 medium-9 small-centered medium-centered columns">
-                <p>João Costa is 17 years old and is from Faro. He wants to become a computer engineer.</p>
+                <p><b>João Costa</b> is 17 years old and is from Faro. He wants to become a computer engineer.</p>
               </div>
             </div>
-            <div class="member">
+            <div class="member shake">
               <img src="/img/team/jonas.jpg" alt="jonas photo" class="avatar">
               <div class="small-3 medium-9 small-centered medium-centered columns">
-                <p>Jonas Rodrigues is 17 years old and is from Faro. He wants to become a computer engineer.</p>
+                <p><b>Jonas Rodrigues</b> is 17 years old and is from Faro. He wants to become a computer engineer.</p>
               </div>
             </div>
-            <div class="member">
+            <div class="member shake">
               <img src="/img/team/marta.png" alt="marta photo" class="avatar">
               <div class="small-3 medium-9 small-centered medium-centered columns">
-                <p>Marta is 17 years old and is from Faro. She wants to become a multimedia designer.</p>
+                <p><b>Marta Barros</b> is 17 years old and is from Faro. She wants to become a multimedia designer.</p>
               </div>
             </div>
-            <h1 class="text-center" style="margin-top: 20px;">Group Photo</h1>
-            <img src="/img/team/team.jpg" alt="team photo" style="border-radius:10%; ">
+            <h1 class="text-center subtitle" style="margin-top:30px;">Group Photo</h1>
+            <div id="group-container" class="shake">
+            <img src="/img/team/team.jpg" alt="team photo" id="group" shake>
+          </div>
           </section>
       </div>
   </div>
@@ -161,22 +163,22 @@
   <div class="row">
       <div class="small-12 medium-10 small-centered medium-centered columns">
         <section>
-          <div class="member">
+          <div class="member shake">
             <img src="/img/team/duarte.png" alt="duarte photo" class="avatar">
             <div class="small-3 medium-9 small-centered medium-centered columns">
-              <p style="padding-top:3%">D. Duarte is an assistant professor at University of Algarve (UAlg), lecturing in marine geology, marine morphodynamics, geological oceanography, and coastal processes and wetlands. He has more than 27 years of research experience, and participated in more than 30 national and European research projects, being the coordinator of several local projects.</p>
+              <p style="padding-top:5%"><b>Duarte Duarte</b> is an assistant professor at University of Algarve (UAlg), lecturing in marine geology, marine morphodynamics, geological oceanography, and coastal processes and wetlands. He has more than 27 years of research experience, and participated in more than 30 national and European research projects, being the coordinator of several local projects.</p>
             </div>
           </div>
-          <div class="member">
+          <div class="member shake">
             <img src="/img/team/conduto.jpg" alt="conduto photo" class="avatar">
             <div class="small-3 medium-9 small-centered medium-centered columns">
-              <p style="padding-top:12%">José Conduto</p>
+              <p style="padding-top:12%"><b>José Conduto</b></p>
             </div>
           </div>
-          <div class="member">
+          <div class="member shake">
             <img src="/img/team/vitor.PNG" alt="vitor photo" class="avatar" style="width: 200px;">
             <div class="small-3 medium-9 small-centered medium-centered columns">
-              <p style="padding-top:12%">Vitor Guerreiro</p>
+              <p style="padding-top:12%"><b>Vitor Guerreiro</b></p>
             </div>
           </div>
       </section>
@@ -194,22 +196,22 @@
         <section>
             <div class="row align-center">
               <div class="small-12 medium-4 columns" style="margin-bottom: 30px">
-                  <a href="http://www.skydivealgarve.com"><img src="img/sponsors/skydive-logo.png" alt="skydive logo" style="width: 100%;"/></a>
+                  <a href="http://www.skydivealgarve.com"><img src="img/sponsors/skydive-logo.png" alt="skydive logo" style="width: 100%;" class="shake"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="http://www.english21.pt"><img src="img/sponsors/english21-logo.png" alt="english21 logo" style="width: 100%;"/></a>
+                  <a href="http://www.english21.pt"><img src="img/sponsors/english21-logo.png" alt="english21 logo" style="width: 100%;" class="shake"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="http://www.brimarel.com"><img src="img/sponsors/brimarel2.png" alt="brimarel logo" style="width: 100%;"/></a>
+                  <a href="http://www.brimarel.com"><img src="img/sponsors/brimarel2.png" alt="brimarel logo" style="width: 100%;" class="shake"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="http://www.globus.pt"><img src="img/sponsors/globus.png" alt="globus logo" style="width: 100%;"/></a>
+                  <a href="http://www.globus.pt"><img src="img/sponsors/globus.png" alt="globus logo" style="width: 100%;" class="shake"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="https://www.ualg.pt"><img src="img/sponsors/ualg.png" alt="ualg logo" style="width: 100%;"/></a>
+                  <a href="https://www.ualg.pt"><img src="img/sponsors/ualg.png" alt="ualg logo" style="width: 100%;" class="shake"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="https://www.facebook.com/arcoirisprintshopulp"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:80px; margin-top: -30px;"/></a>
+                  <a href="https://www.facebook.com/arcoirisprintshopulp"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:80px; margin-top: -30px;" class="shake"/></a>
               </div>
             </div>
         </section>

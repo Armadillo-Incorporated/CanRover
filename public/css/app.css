@@ -5666,11 +5666,81 @@ footer {
             transform: translate(-50%, -50%); }
 
 .avatar {
-  border-radius: 100%;
-  max-width: 200px; }
+  border-radius: 2%;
+  max-width: 200px;
+  border: 3px solid #000000; }
+
+.shake:hover {
+  -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+          animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px; }
 
 .member {
-  margin-top: 20px; }
+  margin-top: 10px;
+  padding: 10px 10px;
+  border: 5px groove #000;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5); }
   .member p {
     max-height: 100%;
     padding-top: 10%; }
+
+#group-container {
+  border: 5px solid #000;
+  position: relative;
+  max-width: 100%; }
+  #group-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.5); }
+
+#group {
+  max-width: 100%;
+  border-radius: 1px; }
+
+.subtitle {
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 1px 1px; }
+
+@-webkit-keyframes shake {
+  10%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0); } }
+
+@keyframes shake {
+  10%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0); } }
