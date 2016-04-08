@@ -174,7 +174,7 @@
             </div>
           </div>
           <div class="member">
-            <img src="/img/team/vitor.png" alt="vitor photo" class="avatar" style="width: 200px;">
+            <img src="/img/team/vitor.PNG" alt="vitor photo" class="avatar" style="width: 200px;">
             <div class="small-3 medium-9 small-centered medium-centered columns">
               <p style="padding-top:12%">Vitor Guerreiro</p>
             </div>
