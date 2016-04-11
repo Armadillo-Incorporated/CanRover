@@ -168,7 +168,7 @@
           <div class="member shake">
             <img src="/img/team/duarte.png" alt="duarte photo" class="avatar">
             <div class="small-3 medium-9 small-centered medium-centered columns">
-              <p style="padding-top:5%"><b>Duarte Duarte</b> is an assistant professor at University of Algarve (UAlg), lecturing in marine geology, marine morphodynamics, geological oceanography, and coastal processes and wetlands. He has more than 27 years of research experience, and participated in more than 30 national and European research projects, being the coordinator of several local projects.</p>
+              <p style="padding-top:5%"><b>Duarte Duarte</b> is a professor at University of Algarve (UAlg), lecturing in marine geology, marine morphodynamics, geological oceanography, and coastal processes and wetlands. He has more than 27 years of research experience, and participated in more than 30 national and European research projects, being the coordinator of several local projects.</p>
             </div>
           </div>
           <div class="member shake">
