@@ -7,6 +7,7 @@
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#team" data-toggle="menu">Team</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#missions" data-toggle="menu">Missions</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#coordination" data-toggle="menu">Coordination</a></div>
+      <div class="small-12 medium-5 columns medium-nav__button"><a href="#acknowledgments" data-toggle="menu">Acknowledgments</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#sponsors" data-toggle="menu">Sponsors</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#contactus" data-toggle="menu">Contact us</a></div>
       <div class="small-12 medium-5 columns medium-nav__button"><a href="#news" data-toggle="menu"><i class="fa fa-newspaper-o"></i> News</a></div>
@@ -22,6 +23,7 @@
       <li class="navigation__button"><a href="#team">Team</a></li>
       <li class="navigation__button"><a href="#missions">Missions</a></li>
       <li class="navigation__button"><a href="#coordination">Coordination</a></li>
+      <li class="navigation__button"><a href="#acknowledgments">Acknowledgments</a></li>
       <li class="navigation__button"><a href="#sponsors">Sponsors</a></li>
       <li class="navigation__button"><a href="#contactus">Contact us</a></li>
       <li class="navigation__button"><a href="#news"><i class="fa fa-newspaper-o"></i> News</a></li>
@@ -96,7 +98,7 @@
               </div>
             </div>
             <div class="member shake">
-              <img src="/img/sponsors/ines.jpg" alt="ines photo" class="avatar">
+              <img src="/img/team/ines.jpg" alt="ines photo" class="avatar">
               <div class="small-3 medium-9 small-centered medium-centered columns">
                 <p><b>Inês Duarte</b> is 17 years old and is from Coimbra. She wants to become an aeroespacial engineer.</p>
               </div>
@@ -170,15 +172,40 @@
             </div>
           </div>
           <div class="member shake">
+            <img src="/img/team/vitor.PNG" alt="vitor photo" class="avatar" style="width: 200px;">
+            <div class="small-3 medium-9 small-centered medium-centered columns">
+              <p style="padding-top:13%"><b>Vitor Guerreiro</b></p>
+            </div>
+          </div>
+      </section>
+  </div>
+  </div>
+
+  <div class="title" id="acknowledgments" data-magellan-target="acknowledgments">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
+          <h1 class="text-center">Acknowledgments</h1>
+      </div>
+  </div>
+
+  <div class="row">
+      <div class="small-12 medium-10 small-centered medium-centered columns">
+        <section>
+          <div class="member shake">
             <img src="/img/team/conduto.jpg" alt="conduto photo" class="avatar">
             <div class="small-3 medium-9 small-centered medium-centered columns">
-              <p style="padding-top:12%"><b>José Conduto</b></p>
+              <p style="padding-top:13%"><b>José Conduto</b></p>
             </div>
           </div>
           <div class="member shake">
-            <img src="/img/team/vitor.PNG" alt="vitor photo" class="avatar" style="width: 200px;">
+            <img src="/img/team/helder2.jpg" alt="helder photo" class="avatar" style="width: 200px;">
             <div class="small-3 medium-9 small-centered medium-centered columns">
-              <p style="padding-top:12%"><b>Vitor Guerreiro</b></p>
+              <p style="padding-top:13%"><b>Helder Sousa</b></p>
+            </div>
+          </div>
+          <div class="member shake">
+            <img src="/img/team/default.jpg" alt="nuno photo" class="avatar">
+            <div class="small-3 medium-9 small-centered medium-centered columns">
+              <p style="padding-top:13%"><b>Nuno Metelo</b></p>
             </div>
           </div>
       </section>
@@ -196,22 +223,28 @@
         <section>
             <div class="row align-center">
               <div class="small-12 medium-4 columns" style="margin-bottom: 30px">
-                  <a href="http://www.skydivealgarve.com"><img src="img/sponsors/skydive-logo.png" alt="skydive logo" style="width: 100%;" class="shake"/></a>
+                  <a href="http://www.skydivealgarve.com"><img src="img/sponsors/skydive-logo.png" alt="skydive logo" style="width: 100%;" class="shake grayscale"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="http://www.english21.pt"><img src="img/sponsors/english21-logo.png" alt="english21 logo" style="width: 100%;" class="shake"/></a>
+                  <a href="http://www.english21.pt"><img src="img/sponsors/english21-logo.png" alt="english21 logo" style="width: 100%;" class="shake grayscale"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="http://www.brimarel.com"><img src="img/sponsors/brimarel2.png" alt="brimarel logo" style="width: 100%;" class="shake"/></a>
+                  <a href="http://www.brimarel.com"><img src="img/sponsors/brimarel2.png" alt="brimarel logo" style="width: 100%;" class="shake grayscale"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="http://www.globus.pt"><img src="img/sponsors/globus.png" alt="globus logo" style="width: 100%;" class="shake"/></a>
+                  <a href="http://www.globus.pt"><img src="img/sponsors/globus.png" alt="globus logo" style="width: 100%;" class="shake grayscale"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="https://www.ualg.pt"><img src="img/sponsors/ualg.png" alt="ualg logo" style="width: 100%;" class="shake"/></a>
+                  <a href="https://www.ualg.pt"><img src="img/sponsors/ualg.png" alt="ualg logo" style="width: 100%;" class="shake grayscale"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="https://www.facebook.com/arcoirisprintshopulp"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:80px; margin-top: -30px;" class="shake"/></a>
+                  <a href="https://www.facebook.com/arcoirisprintshopulp"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:60px; margin-top: -30px;" class="shake grayscale"/></a>
+              </div>
+              <div class="small-12 medium-4 columns">
+                  <a href="http://www.intematix.com"><img src="img/sponsors/intelmatix.png" alt="intelmatix logo" style="width: 100%; margin-right:20px; margin-top:5%;" class="shake grayscale"/></a>
+              </div>
+              <div class="small-12 medium-4 columns">
+                  <a href="http://www.cm-faro.pt"><img src="img/sponsors/cmfaro.png" alt="cm-faro logo" style="width: 80%; margin-left:20px; margin-top:5%;" class="shake grayscale"/></a>
               </div>
             </div>
         </section>

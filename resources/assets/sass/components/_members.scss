@@ -58,6 +58,21 @@
   text-shadow: 1px 1px;
 }
 
+.grayscale{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+
+  &:hover{
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+      filter: none;
+  }
+
+}
+
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);

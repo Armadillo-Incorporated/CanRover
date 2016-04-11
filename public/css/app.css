@@ -5717,6 +5717,19 @@ footer {
   text-transform: uppercase;
   text-shadow: 1px 1px; }
 
+.grayscale {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  /* For Webkit browsers */
+  filter: gray;
+  /* For IE 6 - 9 */
+  -webkit-transition: all .6s ease;
+  /* Transition for Webkit browsers */ }
+  .grayscale:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: none; }
+
 @-webkit-keyframes shake {
   10%, 90% {
     -webkit-transform: translate3d(-1px, 0, 0);

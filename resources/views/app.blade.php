@@ -110,6 +110,9 @@
                                             <a href="#coordination" href="#about" class="footer-navigation__link">Coordination</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
+                                            <a href="#acknowledgments" href="#acknowledgments" class="footer-navigation__link">Acknowledgments</a>
+                                        </li>
+                                        <li class="footer-navigation__button small-12 medium-6 columns">
                                             <a href="#sponsors" href="#about" class="footer-navigation__link">Sponsors</a>
                                         </li>
                                         <li class="footer-navigation__button small-12 medium-6 columns">
