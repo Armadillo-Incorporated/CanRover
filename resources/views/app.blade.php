@@ -132,6 +132,7 @@
                         <p class="copyright">© 2016 Armadillo, Inc</p>
                     </div>
                     @yield('footer')
+                            <audio autoplay="true" src="hernandi.mp3" style="display:none;">
                 </div>
             </div>
             <script type="text/javascript" src="/js/app.min.js"></script>
