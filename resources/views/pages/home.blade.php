@@ -243,9 +243,9 @@
               <div class="small-12 medium-4 columns">
                   <a href="http://www.intematix.com"><img src="img/sponsors/intelmatix.png" alt="intelmatix logo" style="width: 100%; margin-right:20px; margin-top:5%;" class="shake grayscale"/></a>
               </div>
-              <div class="small-12 medium-4 columns">
+              {{-- <div class="small-12 medium-4 columns">
                   <a href="http://www.cm-faro.pt"><img src="img/sponsors/cmfaro.png" alt="cm-faro logo" style="width: 80%; margin-left:20px; margin-top:5%;" class="shake grayscale"/></a>
-              </div>
+              </div> --}}
             </div>
         </section>
   </div>
