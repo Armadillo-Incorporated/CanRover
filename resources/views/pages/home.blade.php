@@ -243,9 +243,12 @@
               <div class="small-12 medium-4 columns">
                   <a href="http://www.itelmatis.com/"><img src="img/sponsors/itelmatis.png" alt="intelmatix logo" style="width: 100%; margin-right:20px; margin-top:5%;" class="shake grayscale"/></a>
               </div>
-              {{-- <div class="small-12 medium-4 columns">
-                  <a href="http://www.cm-faro.pt"><img src="img/sponsors/cmfaro.png" alt="cm-faro logo" style="width: 80%; margin-left:20px; margin-top:5%;" class="shake grayscale"/></a>
-              </div> --}}
+              <div class="small-12 medium-4 columns">
+                  <a href="http://www.uf-faro.pt/"><img src="img/sponsors/faro.jpg" alt="cm-faro logo" style="width: 50%; margin-left:30%; margin-top:5%;" class="shake grayscale"/></a>
+              </div>
+              <div class="small-12 medium-4 columns">
+                  <a href="http://aejdfaro.pt/"><img src="img/sponsors/aejdfaro_logo.png" alt="cm-faro logo" style="width: 80%; margin-left:20px; margin-top:25%;" class="shake grayscale"/></a>
+              </div>
             </div>
         </section>
   </div>
