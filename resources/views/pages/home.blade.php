@@ -241,7 +241,7 @@
                   <a href="https://www.facebook.com/arcoirisprintshopulp"><img src="img/sponsors/arco_iris.jpg" alt="arco-iris logo" style="width: 80%; padding-left:60px; margin-top: -30px;" class="shake grayscale"/></a>
               </div>
               <div class="small-12 medium-4 columns">
-                  <a href="http://www.intematix.com"><img src="img/sponsors/intelmatix.png" alt="intelmatix logo" style="width: 100%; margin-right:20px; margin-top:5%;" class="shake grayscale"/></a>
+                  <a href="http://www.itelmatis.com/"><img src="img/sponsors/itelmatis.png" alt="intelmatix logo" style="width: 100%; margin-right:20px; margin-top:5%;" class="shake grayscale"/></a>
               </div>
               {{-- <div class="small-12 medium-4 columns">
                   <a href="http://www.cm-faro.pt"><img src="img/sponsors/cmfaro.png" alt="cm-faro logo" style="width: 80%; margin-left:20px; margin-top:5%;" class="shake grayscale"/></a>
